@@ -64,13 +64,14 @@ class Sentence(tuple):
             f_dict = dict((f.__name__, f) for f in features)
             for feature, function in f_dict.iteritems():
                 for i in context:
-                    value = function(self[i]) if i in bounds else None
-                    if isinstance(value, basestring):
-                        for char in '=:':
-                            value.replace(char, '.')
-                    label = u'{}[{}]={}'.format(feature, i-index, u'{}')
-                    # ':' and '=' are special delimiters
-                    values.append(label.format(value).replace(':', '.'))
+                    if i in bounds:
+                        value = function(self[i])
+                        if isinstance(value, basestring):
+                            for char in '=:':
+                                value.replace(char, '.')
+                        label = u'{}[{}]={}'.format(feature, i-index, u'{}')
+                        # ':' and '=' are special delimiters
+                        values.append(label.format(value).replace(':', '.'))
             yield values
     
     def ngramize(self, n):
