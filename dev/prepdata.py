@@ -1,7 +1,31 @@
 # -*- mode: Python; coding: utf-8 -*-
-import os, word2vec
+import os
 from csv import *
 from string import *
+
+# LOAD RESOURCES
+currencies = u'$Â¢Â£Â¤Â¥ÃÅÆ’Éƒà§³à¸¿áƒšâ‚¡â‚¤â‚¥â‚¦â‚¨â‚©â‚ªâ‚«â‚¬â‚­â‚®â‚±â‚²â‚´â‚½å…ƒå††'
+punctuation += u'â€-â€‘âƒÖŠá †â€§Â·Â¡!Â¿?â¸˜â€½â€œâ€â€˜â€™â€›â€Ÿ.,â€šâ€žâ€²â€³Â´Ë^Â°Â¸Ë›Â¨`Ë™ËšÂªÂºâ€¦&_Â¯Â­â€“â€‘â€”Â§âŠÂ¶â€ â€¡@â€°â€±Â¦Ë‰Ë†Ë˜Ë‡â€¼ï¸Žâ‡âˆâ‰ï¸Žâ›âœââžâ¢â£â¡'
+
+def load_brown_clusters(brown_input_path):
+    brown_dict = {}
+    with open(brown_input_path) as fo:
+        for line in fo:
+            word, binary, cluster_id = line.split()
+            brown_dict[word] = cluster_id
+    return brown_dict
+
+brown_dict = load_brown_clusters('./resources/brown_clusters.txt')
+
+def load_gazetteer(gaze_input_path):
+    gazetteer = {}
+    with open(gaze_input_path) as fo:
+        for line in fo:
+            entity_type, entity = line.split(' ', 1)
+            gazetteer[entity] = entity_type
+    return gazetteer
+
+gazetteer = load_gazetteer('./resources/named_entity_lists/eng.list')
 
 class ACEDialect(Dialect):
     """A CSV dialect for reading ACE BIO/POS data."""
@@ -12,6 +36,7 @@ class ACEDialect(Dialect):
     skipinitialspace = True
 
 register_dialect('ace', ACEDialect)
+#===============================================================================
 
 class Token(object):
     """docstring for Token"""
@@ -58,30 +83,77 @@ class Sentence(tuple):
         if not all(isinstance(item, int) for item in window):
             raise ValueError, 'window must be a list of integers'
         bounds = range(len(self))
-        for index, item in enumerate(self):
+        for index, item in enumerate(self): # sequence of Token objs
+            print index
+            print item
             values = [item.bio]
             context = [index + offset for offset in window]
             f_dict = dict((f.__name__, f) for f in features)
             for feature, function in f_dict.iteritems():
                 for i in context:
                     if i in bounds:
-                        value = function(self[i])
+                        value = function(self, i)
                         if isinstance(value, basestring):
-                            # ':' and '=' are special delimiters
                             for char in '=:':
                                 value.replace(char, '.')
                         label = u'{}[{}]={}'.format(feature, i-index, u'{}')
-                        values.append(label.format(value))
+                        # ':' and '=' are special delimiters
+                        values.append(label.format(value).replace(':', '.'))
             yield values
     
-    def ngramize(self, n):
-        """Returns a tuple of n-grams in the sentence."""
-        slices = (slice(i, i+n) for i in range(max(len(self)-n+1, 0)))
-        return tuple(self[s] for s in slices)
+#     def ngramize(self, n):
+#         """Returns a tuple of n-grams in the sentence."""
+#         slices = (slice(i, i+n) for i in range(max(len(self)-n+1, 0)))
+#         return tuple(self[s] for s in slices)
 
-# Feature functions of the form f(token) -> value
-def text(token):
+# FEATURES
+def prev_n(sent, i, n=3):    
+    """ n tokens before target in sentence"""
+    end = i
+    start = max(0, end-n)
+    return '_'.join(sent[start:end])
+
+def next_n(sent, i, n=3):
+    """ n tokens after target in sentence"""
+    start = min(i+1, len(sent))
+    end = min(start+n, len(sent))
+    return '_'.join(sent[start:end])
+
+def prev_bigram(sent, i):
+    """target and prev token in sentence"""
+    start = max(0, i-1)
+    end = min(i+1, len(sent))
+    return '_'.join(sent[start:end])
+
+def next_bigram(sent, i):
+    """target and next token in sentence"""
+    return prev_bigram(sent, i+1)
+
+def trigram(sent, i):
+    """target and 2 surrounding tokens in sentence"""
+    start = max(0, i-1)
+    end = min(i+2, len(sent))
+    return '_'.join(sent[start:end])
+    
+def prev_trigram(sent, i):
+    """target and 2 preceding tokens in sentence"""
+    return trigram(sent, i-1)
+
+def next_trigram(sent, i):
+    """target and 2 following tokens in sentence"""
+    return trigram(sent, i+1)
+
+def entity_type(sent, i):
+    """check token against gazetteer, backoff as needed"""
+    return
+
+def is_entity(sent, i):
+    """is the token or one of its ngrams in gazetter?"""
+    return
+    
+def text(sent, i):
     """The token itself (as a unicode object)."""
+    token = sent[i]
     if isinstance(token, Token):
         token = text(token.text)
     if isinstance(token, str):
@@ -89,67 +161,75 @@ def text(token):
     if isinstance(token, unicode):
         return token
 
-def nopunct(token):
+def nopunct(sent, i):
     """The token itself stripped of leading/trailing punctuation."""
+    token = sent[i]
     return text(token).strip(punctuation)
 
-def pos(token):
+def pos(sent, i):
     """The part-of-speech tag."""
+    token = sent[i]
     if isinstance(token, Token):
         return token.pos
 
-def orth(token):
+def orth(sent, i):
     """A binary representation of the unicode.
-    
     E.g.:
         u'...' -> '000'
         u'abc' -> '000'
         u'abC' -> '001'
-        u'Abç' -> '100'
+        u'AbÃ§' -> '100'
         u'AbC' -> '101'
-        u'ÀBC' -> '111'
+        u'Ã€BC' -> '111'
     """
+    token = sent[i]
     return ''.join(map(str,map(int,(map(unicode.isupper, text(token))))))
 
-def cap(token):
+def cap(sent, i):
     """True if every character in the token is capitalized, otherwise False."""
+    token = sent[i]
     return unicode.isupper(text(token))
 
-def title(token):
+def title(sent, i):
     """True if the token is titlecase, otherwise False."""
+    token = sent[i]
     return unicode.istitle(text(token))
 
-def alnum(token):
+def alnum(sent, i):
     """True if the token is composed of strictly alphanumeric characters,
     False otherwise."""
+    token = sent[i]
     return unicode.isalnum(text(token))
 
-def alpha(token):
+def alpha(sent, i):
     """True if the token is composed of strictly alphabetic characters,
     False otherwise."""
+    token = sent[i]
     return unicode.isalpha(text(token))
 
-def num(token):
+def num(sent, i):
     """True if the token is composed of strictly numerical characters,
     False otherwise.""" 
+    token = sent[i]
     return unicode.isnumeric(text(token))
 
-def first(token):
+def first(sent, i):
     """True if the token is the first token in the sentence, otherwise False."""
+    token = sent[i]
     if isinstance(token, Token):
         return token.index == 0
 
-def tail(token):
+def tail(sent, i):
     """The last four characters (or fewer) of the token."""
+    token = sent[i]
     return text(token)[-4:]
 
-currencies = u'$¢£¤¥ÐŁƒɃ৳฿ლ₡₤₥₦₨₩₪₫€₭₮₱₲₴₽元円'
-punctuation += u'‐-‑⁃֊᠆‧·¡!¿?⸘‽“”‘’‛‟.,‚„′″´˝^°¸˛¨`˙˚ªº…&_¯­–‑—§⁊¶†‡@‰‱¦ˉˆ˘ˇ‼︎⁇⁈⁉︎❛❜❝❞❢❣❡'
-def shape(token):
+def shape(sent, i):
     """Return a general shape of the token.
     
     E.g., 'Abc' -> '
     """
+    token = sent[i]
     chars = []
     for c in text(token):
         if c in ascii_uppercase:
@@ -170,7 +250,9 @@ def shape(token):
             chars += 'u'
     return u''.join(chars)
 
-def write_crf_data(in_path, out_path):
+
+#===============================================================================
+def write_crf_data(in_path, out_path, features):
     with open(in_path, 'rb') as in_file:
         with open(out_path, 'wb') as out_file:
             csv_reader = reader(in_file, 'ace')
@@ -184,23 +266,27 @@ def write_crf_data(in_path, out_path):
                 else:
                     sentence += Token(*row)
 
-def write_train_text(in_path, out_path):
-    words = list()
+def write_sent_data(in_path, out_path):
     with open(in_path, 'rb') as in_file:
-        csv_reader = reader(in_file, 'ace')
-        for row in csv_reader:
-            if row:
-                token = Token(*row)
-                words.append(token.text.lower().strip(punctuation))
-    with open(out_path, 'wb') as out_file:
-        out_file.write(' '.join(filter(None, words)))
+        with open(out_path, 'wb') as out_file:
+            csv_reader = reader(in_file, 'ace')
+            csv_writer = writer(out_file, 'ace')
+            sentence = Sentence()
+            for row in csv_reader:
+                if not row:
+                    csv_writer.writerow([' '.join([token.text for token in sentence])])
+                    sentence = Sentence()
+                else:
+                    sentence += Token(*row)
 
 if __name__ == '__main__':
     train_path = os.path.join('project1-train-dev', 'train.gold')
     dev_path = os.path.join('project1-train-dev', 'dev.gold')
-    crf_train = os.path.join('resources', 'train.crfsuite.txt')
-    crf_test = os.path.join('resources', 'dev.crfsuite.txt')
+    crf_train = 'train.crfsuite.txt'
+    crf_test = 'dev.crfsuite.txt'
     features = text, nopunct, pos, cap, title, alnum, num, first, tail, shape
-    write_crf_data(train_path, crf_train)
-    write_crf_data(dev_path, crf_test)
-    write_train_text(train_path, 'words')
+    write_crf_data(train_path, crf_train, features)
+    write_crf_data(dev_path, crf_test, features)
+    
+    #write_sent_data('./resources/project1-train-dev/dev.gold, 'sent.txt')
+    

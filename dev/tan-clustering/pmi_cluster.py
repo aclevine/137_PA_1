@@ -347,12 +347,17 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+#     main()
+
+    input_path = '../resources/sentences.txt'
+    output_path = '../resources/brown_clusters.txt'
 
     word_counts = make_word_counts(document_generator(input_path, lower=True),
                                    max_vocab_size=None,
                                    min_word_count=1)
+ 
+    c = DocumentLevelClusters(document_generator(input_path, lower=True),
+                              word_counts, batch_size=1000)
 
-    c = DocumentLevelClusters(document_generator(args.input_path, lower=args.lower),
-                              word_counts, batch_size=args.batch_size)
-
+    c.save_clusters(output_path)
+    
