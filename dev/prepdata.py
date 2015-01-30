@@ -1,5 +1,5 @@
 # -*- mode: Python; coding: utf-8 -*-
-import os
+import os, word2vec
 from csv import *
 from string import *
 
@@ -67,11 +67,11 @@ class Sentence(tuple):
                     if i in bounds:
                         value = function(self[i])
                         if isinstance(value, basestring):
+                            # ':' and '=' are special delimiters
                             for char in '=:':
                                 value.replace(char, '.')
                         label = u'{}[{}]={}'.format(feature, i-index, u'{}')
-                        # ':' and '=' are special delimiters
-                        values.append(label.format(value).replace(':', '.'))
+                        values.append(label.format(value))
             yield values
     
     def ngramize(self, n):
@@ -79,6 +79,7 @@ class Sentence(tuple):
         slices = (slice(i, i+n) for i in range(max(len(self)-n+1, 0)))
         return tuple(self[s] for s in slices)
 
+# Feature functions of the form f(token) -> value
 def text(token):
     """The token itself (as a unicode object)."""
     if isinstance(token, Token):
@@ -183,11 +184,23 @@ def write_crf_data(in_path, out_path):
                 else:
                     sentence += Token(*row)
 
+def write_train_text(in_path, out_path):
+    words = list()
+    with open(in_path, 'rb') as in_file:
+        csv_reader = reader(in_file, 'ace')
+        for row in csv_reader:
+            if row:
+                token = Token(*row)
+                words.append(token.text.lower().strip(punctuation))
+    with open(out_path, 'wb') as out_file:
+        out_file.write(' '.join(filter(None, words)))
+
 if __name__ == '__main__':
     train_path = os.path.join('project1-train-dev', 'train.gold')
     dev_path = os.path.join('project1-train-dev', 'dev.gold')
-    crf_train = 'train.crfsuite.txt'
-    crf_test = 'dev.crfsuite.txt'
+    crf_train = os.path.join('resources', 'train.crfsuite.txt')
+    crf_test = os.path.join('resources', 'dev.crfsuite.txt')
     features = text, nopunct, pos, cap, title, alnum, num, first, tail, shape
     write_crf_data(train_path, crf_train)
     write_crf_data(dev_path, crf_test)
+    write_train_text(train_path, 'words')
