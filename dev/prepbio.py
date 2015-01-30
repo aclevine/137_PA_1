@@ -35,6 +35,7 @@ class Extent(object):
         self.end = end
         self.content = content
         self.span = slice(start, end)
+
     
     def __lt__(self, other):
         return self.span < other.span
