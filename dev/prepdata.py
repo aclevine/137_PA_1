@@ -107,23 +107,32 @@ class Sentence(tuple):
 #         return tuple(self[s] for s in slices)
 
 # FEATURES
+def text(token):
+    """The token itself (as a unicode object)."""
+    if isinstance(token, Token):
+        token = text(token.text)
+    if isinstance(token, str):
+        token = text(token.decode('utf-8'))
+    if isinstance(token, unicode):
+        return token
+
 def prev_n(sent, i, n=3):    
     """ n tokens before target in sentence"""
     end = i
     start = max(0, end-n)
-    return '_'.join(sent[start:end])
+    return '_'.join([t.text for t in sent[start:end]])
 
 def next_n(sent, i, n=3):
     """ n tokens after target in sentence"""
     start = min(i+1, len(sent))
     end = min(start+n, len(sent))
-    return '_'.join(sent[start:end])
+    return '_'.join([t.text for t in sent[start:end]])
 
 def prev_bigram(sent, i):
     """target and prev token in sentence"""
     start = max(0, i-1)
     end = min(i+1, len(sent))
-    return '_'.join(sent[start:end])
+    return '_'.join([t.text for t in sent[start:end]])
 
 def next_bigram(sent, i):
     """target and next token in sentence"""
@@ -133,7 +142,7 @@ def trigram(sent, i):
     """target and 2 surrounding tokens in sentence"""
     start = max(0, i-1)
     end = min(i+2, len(sent))
-    return '_'.join(sent[start:end])
+    return '_'.join([t.text for t in sent[start:end]])
     
 def prev_trigram(sent, i):
     """target and 2 preceding tokens in sentence"""
@@ -145,21 +154,34 @@ def next_trigram(sent, i):
 
 def entity_type(sent, i):
     """check token against gazetteer, backoff as needed"""
-    return
-
-def is_entity(sent, i):
-    """is the token or one of its ngrams in gazetter?"""
-    return
-    
-def text(sent, i):
-    """The token itself (as a unicode object)."""
+    #trigrams
+    trigram = trigram(sent,i).replace('_', ' ')
+    if trigram in gazetteer:
+        return gazetteer[trigram]
+    prev_trigram = prev_trigram(sent,i).replace('_', ' ')
+    if prev_trigram in gazetteer:
+        return gazetteer[prev_trigram]
+    next_trigram = next_trigram(sent,i).replace('_', ' ')
+    if next_trigram in gazetteer:
+        return gazetteer[next_trigram]    
+    #bigrams
+    prev_bigram = prev_bigram(sent,i).replace('_', ' ')
+    if prev_bigram in gazetteer:
+        return gazetteer[prev_bigram]
+    next_bigram = next_bigram(sent,i).replace('_', ' ')
+    if next_bigram in gazetteer:
+        return gazetteer[next_bigram]    
+    #unigram
     token = sent[i]
-    if isinstance(token, Token):
-        token = text(token.text)
-    if isinstance(token, str):
-        token = text(token.decode('utf-8'))
-    if isinstance(token, unicode):
-        return token
+    return gazetteer.get(token, 'None')
+
+    
+def brown_cluster_id(sent, i):
+    token = sent[i]
+    return brown_dict.get(token.text, -1)
+    
+def unigram(sent, i):
+    return text(sent[i])
 
 def nopunct(sent, i):
     """The token itself stripped of leading/trailing punctuation."""
@@ -280,11 +302,11 @@ def write_sent_data(in_path, out_path):
                     sentence += Token(*row)
 
 if __name__ == '__main__':
-    train_path = os.path.join('project1-train-dev', 'train.gold')
-    dev_path = os.path.join('project1-train-dev', 'dev.gold')
+    train_path = os.path.join('resources', 'project1-train-dev', 'train.gold')
+    dev_path = os.path.join('resources', 'project1-train-dev', 'dev.gold')
     crf_train = 'train.crfsuite.txt'
     crf_test = 'dev.crfsuite.txt'
-    features = text, nopunct, pos, cap, title, alnum, num, first, tail, shape
+    features = unigram, nopunct, pos, cap, title, alnum, num, first, tail, shape, trigram
     write_crf_data(train_path, crf_train, features)
     write_crf_data(dev_path, crf_test, features)
     
