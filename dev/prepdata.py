@@ -50,7 +50,7 @@ class Token(object):
         return '{}({})'.format(self.__class__.__name__, self._args())
     
     def _args(self):
-        """Returns an ordered list of arguments for string representation."""
+        """Returns an ordered list of t for string representation."""
         args = self.index, self.text, self.pos, self.bio
         return ', '.join(map(repr, args))
 
@@ -77,29 +77,59 @@ class Sentence(tuple):
     def __repr__(self):
         return '<{} with {} tokens>'.format(self.__class__.__name__, len(self))
     
-    def featurize(self, features, window=range(1)):
+    def featurize(self, features, NEdict, window=range(1)):
+        #Preciously: def featurize(self, features, window=range(1)):
+        #Chen: I added NEDict as a parameter for the method resourceConfirm();
         if not isinstance(window, list):
             raise ValueError, 'window must be a list of integers'
         if not all(isinstance(item, int) for item in window):
             raise ValueError, 'window must be a list of integers'
         bounds = range(len(self))
-        for index, item in enumerate(self): # sequence of Token objs
-            print index
-            print item
+        for index, item in enumerate(self):
             values = [item.bio]
             context = [index + offset for offset in window]
             f_dict = dict((f.__name__, f) for f in features)
             for feature, function in f_dict.iteritems():
                 for i in context:
                     if i in bounds:
-                        value = function(self, i)
+                        value = function(self[i])
                         if isinstance(value, basestring):
                             for char in '=:':
                                 value.replace(char, '.')
                         label = u'{}[{}]={}'.format(feature, i-index, u'{}')
                         # ':' and '=' are special delimiters
                         values.append(label.format(value).replace(':', '.'))
+            ## Chen: The code bellow adds the feature RC to see if self[index].text appears in the resources.
+            label2 = u'{}[{}]={}'.format('RC','0', self.resourceConfirm(index, NEdict))
+            values.append(label2)
+            ##### End
             yield values
+
+
+    def resourceConfirm(self, index, NEdict):
+        #This function takes in a Sentence object and an index and the NEDict dictinary as input, returns a string that has the form: B-PER or I-LOC.
+        #For example, if there is a sentence 'I am Kurt Heimpel' in the dev data and 'Kurt Heimpel' appears in the resources, then resourceConfirm(self,0,NEdict) and resourceConfirm(self,1,NEdict) would return 'None', while resourceConfirm(self,2,NEdict) would return 'B-PER' and resourceConfirm(self,3,NEdict) would return 'I-PER'.
+        global NElen
+        global INType
+        flag = True
+        if NElen > 0:
+            NElen = NElen-1
+            return u'RCI-{}'.format(INType)
+        else:
+            if self[index].text in NEdict.keys():
+                for name in NEdict[self[index].text]:
+                    for k in range(1,len(name)):
+                        if index + k < len(self) and name[k] != self[index + k]:
+                            flag = False
+                    if flag:
+                        
+                        NElen = len(name) - 1
+                        INType = u'{}'.format(name[0])
+                        flag = True
+                        return u'RCB-{}'.format(name[0])
+            return u'None'
+            else:
+                return u'None'
     
 #     def ngramize(self, n):
 #         """Returns a tuple of n-grams in the sentence."""
@@ -282,7 +312,9 @@ def write_crf_data(in_path, out_path, features):
             sentence = Sentence()
             for row in csv_reader:
                 if not row:
-                    for line in sentence.featurize(features, range(-2,3)):
+                    for line in sentence.featurize(features, NEDict, range(-2,3)):
+                    #Previous: for line in sentence.featurize(features, range(-2,3)):
+                    #Chen: I added a NEDict for the featurize function I changed.
                         csv_writer.writerow(line)
                     sentence = Sentence()
                 else:
@@ -302,6 +334,20 @@ def write_sent_data(in_path, out_path):
                     sentence += Token(*row)
 
 if __name__ == '__main__':
+    NElen = 0;
+    INType =''
+    NEDict = getNEDict()
+    #NEDict is a dictionary that has the form: (for example)
+    #NEDict[''Kurt''] = [['PER', 'Heimpel'], ['PER', 'Pariser'], ['PER', 'Schumacher'], ['PER', 'Sontheimer'], ['PER', 'Stadler'], ['PER', 'Strentz']]
+
+# It stores the following info in the resources
+#PER Kurt Heimpel
+#PER Kurt Pariser
+#PER Kurt Schumacher
+#PER Kurt Sontheimer
+#PER Kurt Stadler
+#PER Kurt Strentz
+
     train_path = os.path.join('resources', 'project1-train-dev', 'train.gold')
     dev_path = os.path.join('resources', 'project1-train-dev', 'dev.gold')
     crf_train = 'train.crfsuite.txt'
