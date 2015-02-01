@@ -333,6 +333,34 @@ def write_sent_data(in_path, out_path):
                 else:
                     sentence += Token(*row)
 
+def getNEDict(filename = 'named_entity_lists'):
+    NEDict = {}
+    folder = os.listdir(filename)
+    files = []
+    for i in folder:
+        files.append(i)
+    for i in files:
+        print(i)
+        f = open(filename + '/' + i, 'r')
+        for line in f.readlines():
+            items = line.split()
+            following = []
+            following.append(items[0])
+            for k in range(len(items)):
+                if k >= 2 and k < len(items):
+                    following.append(items[k])
+            if not items[1] in NEDict.keys():
+                followings = []
+                followings.append(following)
+                NEDict[items[1]] = followings
+            else:
+                NEDict[items[1]].append(following)
+    # print(items[1], NEDict[items[1]])
+
+
+
+return NEDict
+
 if __name__ == '__main__':
     NElen = 0;
     INType =''
