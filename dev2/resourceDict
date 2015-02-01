@@ -1,4 +1,0 @@
-class namedEntity(object):
-	def __init__(self,bioType,namedEntity):
-		self.bioType = bioType
-		self.namedEntity
