@@ -99,7 +99,7 @@ class Sentence(tuple):
                         label = u'{}[{}]={}'.format(feature, i-index, u'{}')
                         # ':' and '=' are special delimiters
                         values.append(label.format(value).replace(':', '.'))
-            ## Chen: The code bellow adds the feature RC to see if self[index].text appears in the resources.
+            ##### Chen: The code bellow adds the feature RC to see if self[index].text appears in the resources.
             label2 = u'{}[{}]={}'.format('RC','0', self.resourceConfirm(index, NEdict))
             values.append(label2)
             ##### End
