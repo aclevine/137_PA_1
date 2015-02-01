@@ -2,6 +2,7 @@
 import os
 from csv import *
 from string import *
+from operator import itemgetter, attrgetter, methodcaller
 
 # LOAD RESOURCES
 currencies = u'$Â¢Â£Â¤Â¥ÃÅÆ’Éƒà§³à¸¿áƒšâ‚¡â‚¤â‚¥â‚¦â‚¨â‚©â‚ªâ‚«â‚¬â‚­â‚®â‚±â‚²â‚´â‚½å…ƒå††'
@@ -333,7 +334,20 @@ def write_sent_data(in_path, out_path):
                 else:
                     sentence += Token(*row)
 
+
 def getNEDict(filename = 'named_entity_lists'):
+    """
+        This method converts the following info in the resources
+        PER Kurt Heimpel
+        PER Kurt Pariser
+        PER Kurt Schumacher
+        PER Kurt Sontheimer
+        PER Kurt Stadler
+        PER Kurt Strentz
+        
+        to the a dictionary that has the form:
+        #NEDict[''Kurt''] = [['PER', 'Heimpel'], ['PER', 'Pariser'], ['PER', 'Schumacher'], ['PER', 'Sontheimer'], ['PER', 'Stadler'], ['PER', 'Strentz']]
+        """
     NEDict = {}
     folder = os.listdir(filename)
     files = []
@@ -355,8 +369,8 @@ def getNEDict(filename = 'named_entity_lists'):
                 NEDict[items[1]] = followings
             else:
                 NEDict[items[1]].append(following)
-    # print(items[1], NEDict[items[1]])
-
+    for i in NEDict.keys():
+        NEDict[i] = sorted(NEDict[i],key=methodcaller('__len__'),reverse=True)
 
 
 return NEDict
@@ -365,16 +379,6 @@ if __name__ == '__main__':
     NElen = 0;
     INType =''
     NEDict = getNEDict()
-    #NEDict is a dictionary that has the form: (for example)
-    #NEDict[''Kurt''] = [['PER', 'Heimpel'], ['PER', 'Pariser'], ['PER', 'Schumacher'], ['PER', 'Sontheimer'], ['PER', 'Stadler'], ['PER', 'Strentz']]
-
-# It stores the following info in the resources
-#PER Kurt Heimpel
-#PER Kurt Pariser
-#PER Kurt Schumacher
-#PER Kurt Sontheimer
-#PER Kurt Stadler
-#PER Kurt Strentz
 
     train_path = os.path.join('resources', 'project1-train-dev', 'train.gold')
     dev_path = os.path.join('resources', 'project1-train-dev', 'dev.gold')
