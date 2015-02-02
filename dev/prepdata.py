@@ -5,9 +5,6 @@ from string import *
 from operator import itemgetter, attrgetter, methodcaller
 
 # LOAD RESOURCES
-currencies = u'$Â¢Â£Â¤Â¥ÃÅÆ’Éƒà§³à¸¿áƒšâ‚¡â‚¤â‚¥â‚¦â‚¨â‚©â‚ªâ‚«â‚¬â‚­â‚®â‚±â‚²â‚´â‚½å…ƒå††'
-punctuation += u'â€-â€‘âƒÖŠá †â€§Â·Â¡!Â¿?â¸˜â€½â€œâ€â€˜â€™â€›â€Ÿ.,â€šâ€žâ€²â€³Â´Ë^Â°Â¸Ë›Â¨`Ë™ËšÂªÂºâ€¦&_Â¯Â­â€“â€‘â€”Â§âŠÂ¶â€ â€¡@â€°â€±Â¦Ë‰Ë†Ë˜Ë‡â€¼ï¸Žâ‡âˆâ‰ï¸Žâ›âœââžâ¢â£â¡'
-
 def load_brown_clusters(brown_input_path):
     brown_dict = {}
     with open(brown_input_path) as fo:
@@ -16,17 +13,17 @@ def load_brown_clusters(brown_input_path):
             brown_dict[word] = cluster_id
     return brown_dict
 
-brown_dict = load_brown_clusters('./resources/brown_clusters.txt')
-
 def load_gazetteer(gaze_input_path):
+    """ load entity type, entity pairs keyed on tokens"""
     gazetteer = {}
     with open(gaze_input_path) as fo:
         for line in fo:
             entity_type, entity = line.split(' ', 1)
-            gazetteer[entity] = entity_type
+            for position, word in enumerate(entity.split()):
+                # save full chunk, token position in chunk, entity type
+                entry = (position, entity.split(), entity_type)
+                gazetteer[word] = gazetteer.get(word, []) + [entry]
     return gazetteer
-
-gazetteer = load_gazetteer('./resources/named_entity_lists/eng.list')
 
 class ACEDialect(Dialect):
     """A CSV dialect for reading ACE BIO/POS data."""
@@ -36,6 +33,10 @@ class ACEDialect(Dialect):
     quoting = QUOTE_NONE
     skipinitialspace = True
 
+currencies = u'$Â¢Â£Â¤Â¥ÃÅÆ’Éƒà§³à¸¿áƒšâ‚¡â‚¤â‚¥â‚¦â‚¨â‚©â‚ªâ‚«â‚¬â‚­â‚®â‚±â‚²â‚´â‚½å…ƒå††'
+punctuation += u'â€-â€‘âƒÖŠá †â€§Â·Â¡!Â¿?â¸˜â€½â€œâ€â€˜â€™â€›â€Ÿ.,â€šâ€žâ€²â€³Â´Ë^Â°Â¸Ë›Â¨`Ë™ËšÂªÂºâ€¦&_Â¯Â­â€“â€‘â€”Â§âŠÂ¶â€ â€¡@â€°â€±Â¦Ë‰Ë†Ë˜Ë‡â€¼ï¸Žâ‡âˆâ‰ï¸Žâ›âœââžâ¢â£â¡'
+brown_dict = load_brown_clusters('./resources/brown_clusters.txt')
+gazetteer = load_gazetteer('./resources/named_entity_lists/eng.list') # named entity dict
 register_dialect('ace', ACEDialect)
 #===============================================================================
 
@@ -78,7 +79,7 @@ class Sentence(tuple):
     def __repr__(self):
         return '<{} with {} tokens>'.format(self.__class__.__name__, len(self))
     
-    def featurize(self, features, NEdict, window=range(1)):
+    def featurize(self, features, window=range(1)):
         #Preciously: def featurize(self, features, window=range(1)):
         #Chen: I added NEDict as a parameter for the method resourceConfirm();
         if not isinstance(window, list):
@@ -93,49 +94,15 @@ class Sentence(tuple):
             for feature, function in f_dict.iteritems():
                 for i in context:
                     if i in bounds:
-                        value = function(self[i])
+                        value = function(self, i)
                         if isinstance(value, basestring):
                             for char in '=:':
                                 value.replace(char, '.')
                         label = u'{}[{}]={}'.format(feature, i-index, u'{}')
                         # ':' and '=' are special delimiters
                         values.append(label.format(value).replace(':', '.'))
-            ##### Chen: The code bellow adds the feature RC to see if self[index].text appears in the resources.
-            label2 = u'{}[{}]={}'.format('RC','0', self.resourceConfirm(index, NEdict))
-            values.append(label2)
-            ##### End
             yield values
 
-
-    def resourceConfirm(self, index, NEdict):
-        #This function takes in a Sentence object and an index and the NEDict dictinary as input, returns a string that has the form: B-PER or I-LOC.
-        #For example, if there is a sentence 'I am Kurt Heimpel' in the dev data and 'Kurt Heimpel' appears in the resources, then resourceConfirm(self,0,NEdict) and resourceConfirm(self,1,NEdict) would return 'None', while resourceConfirm(self,2,NEdict) would return 'B-PER' and resourceConfirm(self,3,NEdict) would return 'I-PER'.
-        global NElen
-        global INType
-        flag = True
-        if NElen > 0:
-            NElen = NElen-1
-            return u'RCI-{}'.format(INType)
-        else:
-            if self[index].text in NEdict.keys():
-                for name in NEdict[self[index].text]:
-                    for k in range(1,len(name)):
-                        if index + k < len(self) and name[k] != self[index + k]:
-                            flag = False
-                    if flag:
-                        
-                        NElen = len(name) - 1
-                        INType = u'{}'.format(name[0])
-                        flag = True
-                        return u'RCB-{}'.format(name[0])
-            return u'None'
-            else:
-                return u'None'
-    
-#     def ngramize(self, n):
-#         """Returns a tuple of n-grams in the sentence."""
-#         slices = (slice(i, i+n) for i in range(max(len(self)-n+1, 0)))
-#         return tuple(self[s] for s in slices)
 
 # FEATURES
 def text(token):
@@ -184,29 +151,18 @@ def next_trigram(sent, i):
     return trigram(sent, i+1)
 
 def entity_type(sent, i):
-    """check token against gazetteer, backoff as needed"""
-    #trigrams
-    trigram = trigram(sent,i).replace('_', ' ')
-    if trigram in gazetteer:
-        return gazetteer[trigram]
-    prev_trigram = prev_trigram(sent,i).replace('_', ' ')
-    if prev_trigram in gazetteer:
-        return gazetteer[prev_trigram]
-    next_trigram = next_trigram(sent,i).replace('_', ' ')
-    if next_trigram in gazetteer:
-        return gazetteer[next_trigram]    
-    #bigrams
-    prev_bigram = prev_bigram(sent,i).replace('_', ' ')
-    if prev_bigram in gazetteer:
-        return gazetteer[prev_bigram]
-    next_bigram = next_bigram(sent,i).replace('_', ' ')
-    if next_bigram in gazetteer:
-        return gazetteer[next_bigram]    
-    #unigram
+    """check token against gazetteer"""
     token = sent[i]
-    return gazetteer.get(token, 'None')
+    entity_list = gazetteer.get(text(token), '')
+    if entity_list:
+        for position, entity, entity_type in entity_list:
+            start = i - position
+            end = start + len(entity)
+            tokens = [text(t) for t in sent[start:end]]
+            if tokens == entity:
+                return entity_type
+    return 'None'
 
-    
 def brown_cluster_id(sent, i):
     token = sent[i]
     return brown_dict.get(token.text, -1)
@@ -313,7 +269,7 @@ def write_crf_data(in_path, out_path, features):
             sentence = Sentence()
             for row in csv_reader:
                 if not row:
-                    for line in sentence.featurize(features, NEDict, range(-2,3)):
+                    for line in sentence.featurize(features, range(-2,3)):
                     #Previous: for line in sentence.featurize(features, range(-2,3)):
                     #Chen: I added a NEDict for the featurize function I changed.
                         csv_writer.writerow(line)
@@ -334,59 +290,17 @@ def write_sent_data(in_path, out_path):
                 else:
                     sentence += Token(*row)
 
-
-def getNEDict(filename = 'named_entity_lists'):
-    """
-        This method converts the following info in the resources
-        PER Kurt Heimpel
-        PER Kurt Pariser
-        PER Kurt Schumacher
-        PER Kurt Sontheimer
-        PER Kurt Stadler
-        PER Kurt Strentz
-        
-        to the a dictionary that has the form:
-        #NEDict[''Kurt''] = [['PER', 'Heimpel'], ['PER', 'Pariser'], ['PER', 'Schumacher'], ['PER', 'Sontheimer'], ['PER', 'Stadler'], ['PER', 'Strentz']]
-        """
-    NEDict = {}
-    folder = os.listdir(filename)
-    files = []
-    for i in folder:
-        files.append(i)
-    for i in files:
-        print(i)
-        f = open(filename + '/' + i, 'r')
-        for line in f.readlines():
-            items = line.split()
-            following = []
-            following.append(items[0])
-            for k in range(len(items)):
-                if k >= 2 and k < len(items):
-                    following.append(items[k])
-            if not items[1] in NEDict.keys():
-                followings = []
-                followings.append(following)
-                NEDict[items[1]] = followings
-            else:
-                NEDict[items[1]].append(following)
-    for i in NEDict.keys():
-        NEDict[i] = sorted(NEDict[i],key=methodcaller('__len__'),reverse=True)
-
-
-return NEDict
-
 if __name__ == '__main__':
-    NElen = 0;
-    INType =''
-    NEDict = getNEDict()
 
     train_path = os.path.join('resources', 'project1-train-dev', 'train.gold')
     dev_path = os.path.join('resources', 'project1-train-dev', 'dev.gold')
     crf_train = 'train.crfsuite.txt'
     crf_test = 'dev.crfsuite.txt'
-    features = unigram, nopunct, pos, cap, title, alnum, num, first, tail, shape, trigram
+    features = unigram, nopunct, pos, cap, title, alnum, num, first, tail, shape, trigram,\
+                entity_type
     write_crf_data(train_path, crf_train, features)
     write_crf_data(dev_path, crf_test, features)
     
     #write_sent_data('./resources/project1-train-dev/dev.gold, 'sent.txt')
     
+    print gazetteer['kurt']
