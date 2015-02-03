@@ -330,9 +330,7 @@ def write_sent_data(in_path, out_path):
             sentence = Sentence()
             for row in csv_reader:
                 if not row:
-                    csv_writer.writerow(
-                        [' '.join(token.text for token in sentence)]
-                    )
+                    csv_writer.writerow(str(sentence))
                     sentence = Sentence()
                 else:
                     sentence += Token(*row)
@@ -345,9 +343,9 @@ if __name__ == '__main__':
     features = pos, cap, title, alnum, num, alpha, nopunct, first, length, \
                shape, simple_shape, \
                entity_type, brown_cluster_id, w2vcluster, \
-               trigram_pos, trigram, \
-               next_bigram_pos, next_bigram, \
-               prev_bigram_pos, prev_bigram
+               prev_bigram_pos, prev_bigram, \
+               trigram_pos, trigram, next_trigram, prev_trigram
+               #next_bigram_pos, next_bigram, \
     write_crf_data(train_path, crf_train, features)
     write_crf_data(dev_path, crf_test, features)
     
