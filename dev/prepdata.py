@@ -35,7 +35,7 @@ def load_w2v_clusters(w2v_input_path):
 
 brown_dict = load_brown_clusters('./resources/brown_clusters.txt')
 gazetteer = load_gazetteer('./resources/named_entity_lists/eng.list') # named entity dict
-w2v_dict = load_w2v_clusters('./resources/words2vec-clusters.txt')
+w2v_dict = load_w2v_clusters('./resources/word2vec_clusters.txt')
 
 class ACEDialect(Dialect):
     """A CSV dialect for reading ACE BIO/POS data."""
@@ -354,7 +354,7 @@ def write_sent_data(in_path, out_path):
             sentence = Sentence()
             for row in csv_reader:
                 if not row:
-                    csv_writer.writerow(str(sentence))
+                    csv_writer.writerow([str(sentence)])
                     sentence = Sentence()
                 else:
                     sentence += Token(*row)
