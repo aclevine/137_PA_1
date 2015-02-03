@@ -305,6 +305,30 @@ def simple_shape(sent, i):
     token = sent[i]
     return ''.join(('X' if char.isupper() else 'x') for char in text(token))
 
+def prefix(sent, i):
+    t = text(sent[i])
+    if  len(t) >= 4:
+        return text[:3]
+    
+def suffix1(sent, i):
+    t = text(sent[i])
+    if  len(t) >= 2:
+        return text[-1:]
+    
+def suffix2(sent, i):
+    t = text(sent[i])
+    if  len(t) >= 3:
+        return text[-2:]
+
+def suffix3(sent, i):
+    t = text(sent[i])
+    if  len(t) >= 4:
+        return text[-3:]
+
+def suffix4(sent, i):
+    t = text(sent[i])
+    if  len(t) >= 5:
+        return text[-4:]    
 #===============================================================================
 def write_crf_data(in_path, out_path, features):
     with open(in_path, 'rb') as in_file:
