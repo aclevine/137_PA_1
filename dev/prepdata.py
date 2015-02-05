@@ -362,8 +362,10 @@ def write_sent_data(in_path, out_path):
 if __name__ == '__main__':
     train_path = os.path.join('resources', 'project1-train-dev', 'train.gold')
     dev_path = os.path.join('resources', 'project1-train-dev', 'dev.gold')
+    test_path = os.path.join('resources', 'project1-test', 'test.gold')
     crf_train = 'train.crfsuite.txt'
-    crf_test = 'dev.crfsuite.txt'
+    crf_dev = 'dev.crfsuite.txt'
+    crf_test = 'test.crfsuite.txt'
     features = pos, cap, title, alnum, num, alpha, nopunct, first, length, \
                shape, simple_shape, \
                entity_type, brown_cluster_id, w2vcluster, \
@@ -372,5 +374,5 @@ if __name__ == '__main__':
                #next_bigram_pos, next_bigram, \
     write_crf_data(train_path, crf_train, features)
     write_crf_data(dev_path, crf_test, features)
-    
+    write_crf_data(test_path, crf_test, features)
     #write_sent_data('./resources/project1-train-dev/dev.gold, 'sent.txt')
