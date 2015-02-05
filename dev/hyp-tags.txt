@@ -10447,8 +10447,8 @@ O
 O
 O
 O
-O
 B-PER
+I-PER
 I-PER
 O
 O
@@ -13690,7 +13690,7 @@ O
 O
 O
 O
-O
+B-PER
 O
 O
 O
@@ -13740,7 +13740,7 @@ O
 O
 O
 O
-B-ORG
+O
 O
 O
 O
@@ -14282,10 +14282,10 @@ O
 O
 O
 O
-O
-O
-B-PER
-I-PER
+B-ORG
+I-ORG
+I-ORG
+I-ORG
 O
 O
 O

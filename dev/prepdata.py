@@ -258,7 +258,7 @@ def first(sent, i):
     """True if the token is the first token in the sentence, otherwise False."""
     token = sent[i]
     if isinstance(token, Token):
-        return token.index == 0
+        return int(token.index) == 0
 
 def tail(sent, i):
     """The last four characters (or fewer) of the token."""
