@@ -2902,3 +2902,802 @@ Not yet .
 The zoo plans to have a contest to name the baby beginning in February , David L. Towne , president and director of the zoo , said .
 The person who submits the winning name , which Towne said should evoke the elephant 's Asian heritage , will receive a trip for two to Thailand , where Chai is from .
 NYT-12-30-00 1423EST
+NYT20001101.2212.0429 NEWS STORY 2000-11-01 22:12:00
+A4398 &Cx1f ; taf-z u f BC-AOL-MARKETPLACE-NYT &LR ; 11-01 0711
+BC-AOL-MARKETPLACE-NYT
+MARKET PLACE : TIME WARNER HOLDERS LOOK FOR HAPPY DAYS AFTER THE AOL
+MERGER &QL ; By ALEX BERENSON &QC ; &LR ; &QL ; &UR ; c.2000 N.Y .
+Times News Service &QC ; &LR ; &QL ; &UR ; &LR ; Back in January , when Internet stocks were hot , America Online agreed to buy Time Warner with AOL stock .
+The deal , if approved by regulators , would leave AOL shareholders with 55 percent of the merged company , even though Time Warner 's revenue and cash flow are far greater .
+Since then , AOL 's stock has fallen by almost a third , destroying most of the premium the company had offered for control of Time Warner .
+So a Time Warner shareholder might conclude that America Online 's chairman , Stephen Case , had bamboozled his Time Warner counterpart , Gerald Levin , into taking AOL 's shares at the worst possible time .
+`` Short term , anyone objective would say probably Steve got the better part of the deal ,'' said Larry Haverty , a senior vice president at State Street Research in Boston and a longtime media investor .
+But Haverty , like many other Time Warner shareholders and industry analysts , hardly cares .
+With the merger likely to be completed later this month , he predicts that the merged company will grow quickly by combining AOL 's marketing skills and captive base of online users with Time Warner 's huge library of films , magazines and the like and its relationships with major advertisers .
+`` The deal strategically and financially makes all the sense in the world ,'' Haverty said .
+`` Five years out , if you 're a shareholder in this company , you 're going to be a happy camper .''
+That view is widely shared .
+`` Strategically , it makes a lot of sense ,'' said Tom Wolzien of Sanford C. Bernstein .
+`` These companies fill the holes of the other one .
+They 're subscription-advertising combo models .
+The reality is the pieces are very compatible .''
+To be sure , the recent history of big media mergers is hardly comforting for shareholders in either AOL or Time Warner .
+Disney stumbled badly after it bought Capital Cities/ABC in 1996 , and Time Warner stagnated for five years after it was created in 1990 by the merger of Time and Warner .
+`` Huge deals are really hard to do and create a lot of uncertainty ,'' said Roger McNamee of Integral Capital , which sold its 404,000 AOL shares the day the merger was announced .
+But if the merged company can overcome that hurdle , it will have big advantages over Disney and other traditional media companies , which are still struggling to figure out how they can profit from the Internet , said Jessica Reif of Merrill Lynch .
+`` Given the multiple distribution platforms that they have , it 's obviously a very powerful consumer engine ,'' Reif said .
+`` There 's a reason that you see Disney and to a lesser extent NBC screaming in Washington .''
+John Schreiber , an assistant portfolio manager at Janus Capital , the mutual fund company that is Time Warner 's largest shareholder , with more than 120 million shares , said the companies had already begun to demonstrate how they would work together .
+For example , AOL has pitched Time Warner 's magazines to its users , resulting in hundreds of thousands of new subscriptions .
+And the companies are trying to sell big advertisers on deals that will reach both America Online users and the people who watch Time Warner cable channels and read its magazines , Schreiber said .
+`` Once the merger closes , I think you 'll see some very powerful cross-promotional deals across all of Time Warner 's advertisers ,'' he said .
+Schreiber also says the risk of cultural clashes between the companies is limited , because the companies disclosed publicly where top executives would stand in the combined company only a few weeks after the merger was announced .
+So people who feel their responsibilities have been diminished have had months to look for new jobs , and some have already left , he said .
+Given the strength he sees in the combined company , Schreiber said the question of whether Levin could have negotiated a better deal with America Online is moot .
+Shares in cable companies like Comcast have fallen 15 percent or more this year , while big media companies have been flat or up slightly .
+So `` it 's not as if Time Warner shareholders have lost out on a great deal of upside ,'' Schreiber said .
+NYT-11-01-00 2212EST
+NYT20001102.1839.0338 NEWS STORY 2000-11-02 19:46:00
+A5436 &Cx1f ; taf-z u f BC-LEVITT-NORRIS-COLUMN- 11-02 0623
+BC-LEVITT-NORRIS-COLUMN-NYT
+WHEN A DIME MATTERS : LEVITT GOES AFTER OPTION MARKETS
+&UR ; By FLOYD NORRIS &LR ; &QC ; &QL ; &UR ; c.2000 N.Y .
+Times News Service &QC ; &LR ; &QL ;
+Arthur Levitt , the longest-serving chairman of the Securities and Exchange Commission , is at it again .
+He 's angry about ways in which individual investors are badly treated , and he wants to do something about it .
+On Friday , Levitt will disclose what may be the final initiatives of his term .
+Evidently unconcerned that follow-up will fall to an SEC chairman named by the next president , he is putting pressure on supposedly independent directors of mutual funds to hold down the commissions the funds spend when they trade stocks , and on corporate audit committees to do a better job .
+He is threatening SEC action if companies continue to issue new stock options to top executives without getting shareholder approval .
+Most important , Levitt is demanding that the options industry put systems in place within a year to allow its customers to experience the benefits of decimalization by trading in penny increments .
+The commission , Levitt said in remarks prepared for a speech at Fordham University on Friday , should `` press the markets hard '' to do that .
+To understand his concern , consider trading Thursday in Compaq Computer securities .
+Compaq stock was trading with a spread of 4 cents between the best bid and the best asked price .
+At the same time , the most actively traded option contract on Compaq had a spread of 40 cents , 10 times as wide .
+The options exchanges ' rules bar any price change of less than a dime , while the stock price can move by a penny .
+`` Investors are being denied the benefits of lower spreads ,'' Levitt said .
+`` The industry is keeping the difference for itself .''
+The history of competition in the options markets is not a pretty one .
+The exchanges avoided real competition for years , and then began to compete on the basis of kicking back money _ the polite term is `` payment for order flow '' _ to brokers who send in customer orders .
+Maybe such kickbacks lower commissions charged to customers , but that is hard to prove .
+What is clear is that the current system discourages price competition that would really help customers .
+Going to pennies would strain computer systems , but little has been done to get systems that could cope .
+In an interview , Edward Joyce , the president of the Chicago Board Options Exchange , said the industry was `` just acting prudently '' by going slowly .
+He gave no timetable for change .
+Levitt 's term as SEC chairman included the reform of the Nasdaq market , action on abuses in the municipal bond market and the new regulation to bar selective corporate disclosures .
+`` He 's done extraordinarily well ,'' said Joel Seligman , the dean of the Washington University law school and author of a history of the SEC .
+`` On Nasdaq and other issues , he pursued a principled approach consistent with the goals of investor protection .''
+Sometime before his term ends , the SEC is likely to approve rules that will limit the amount of consulting services auditors can provide for their audit clients .
+On options or accounting or most anything else , a new SEC could reverse Levitt and the current SEC .
+There is precedent for that .
+Just over 20 years ago , the SEC approved a rule that forced auditors to disclose consulting arrangements with clients .
+Then Ronald Reagan won the election , and the rule was quietly repealed .
+By acting now , Levitt is making such moves more difficult .
+`` I want to be certain ,'' he said in an interview Thursday , `` that my successors and their successors do not forget the commitment to the primacy of the individual investor as being central to the success of our markets .''
+NYT-11-02-00 1946EST
+NYT20001102.1839.0340 NEWS STORY 2000-11-02 19:49:00
+A5439 &Cx1f ; taf-z u p BC-BUCHANAN-NYT &LR ; 11-02 0495
+BC-BUCHANAN-NYT
+BUCHANAN , GOING WHERE OTHERS FEAR TO TREAD
+&UR ; ( ATTN : Fla .) &LR ; &QL ; &UR ; By DAVID E .
+ROSENBAUM &LR ; &QC ; &QL ; &UR ; c.2000 N.Y .
+Times News Service &LR ; &QC ; &QL ;
+TALLAHASSEE , Fla. _ After throwing barbs at all the other presidential candidates , Scott Dailey , a member of the school board here , introduced Pat Buchanan to a luncheon audience Thursday by joshing : `` Pat says he is a serious candidate .
+The polls say he is dead serious .''
+It is an assessment that Buchanan , the Reform Party candidate , does not strenuously dispute .
+While many in political circles believe that Ralph Nader could affect the outcome of the election next week by draining votes away from Vice President Al Gore in crucial states , possibly even Florida , hardly anyone , least of all Buchanan , believes the Buchanan candidacy will be decisive .
+He does not have much support in the first place , as Dailey 's introduction implied .
+And the support he does have , Buchanan feels , is as likely to be drawn from Gore as from Bush .
+A New York Times / CBS News poll taken statewide last week showed Buchanan with 1 percent of the vote in Florida .
+He is apparently not doing much better anywhere else in the country .
+At a news conference here Thursday , Buchanan said one problem he faced was his lack of support from conservative Republicans .
+`` The great driving factor of conservatives ,'' he said , `` is to get rid of Al Gore .''
+Many of those who will vote for him , Buchanan said , would probably not bother to vote if he were not in the race .
+Others , he said , are `` social conservative Republicans .''
+Still others are blue-collar Democrats who like his protectionist trade policies because they fear their jobs could go overseas .
+When Bush and Gore are in Florida , they talk about Social Security , Medicare , taxes and education .
+In speeches like the one he gave Thursday to the Tiger Bay Club downtown , Buchanan talked about issues that the other candidates skip : immigration , the culture war , school prayer and international trade .
+Buchanan 's television advertisements in northern Florida also deal with issues that are not being addressed by others : English as an official language and the right of the Boy Scouts to exclude gays .
+A new advertisement depicts Gore and Bush as selling out to special interests .
+Why is he running when he knows he has no chance to win or even affect the outcome ?
+`` We want to build a new third party _ a conservative party ,'' Buchanan said .
+One main goal , almost certainly out of reach , is to get 5 percent of the vote nationally so that the Reform Party can get federal matching funds in the next presidential election .
+Here is how he described this year 's presidential race : `` When you had Goldwater versus Johnson , you had clarity .
+When you had Nixon and Agnew versus McGovern , you had clarity .
+When you had Reagan versus Mondale , you had clarity .''
+This year , he said , the major- party candidates campaign with a `` conscious vagueness .''
+NYT-11-02-00 1949EST
+NYT20001103.2226.0443 NEWS STORY 2000-11-03 22:49:00
+A7372 &Cx1f ; taf-z u a BC-OBIT-SHENSON-NYT &LR ; 11-03 0344
+BC-OBIT-SHENSON-NYT
+WALTER SHENSON , 81 , PRODUCER OF MOVIES STARRING THE BEATLES
+&UR ; c.2000 N.Y .
+Times News Service &QC ; &LR ; &QL ;
+Walter Shenson , the producer of the Beatles ' films `` A Hard Day's Night '' and `` Help !,'' died on Oct .
+17 in Woodland Hills , Calif .
+He was 81 .
+Shenson , who was born in San Francisco , was working in London as a film producer _ most notably of `` The Mouse That Roared ,'' with Peter Sellers _ when he was approached by United Artists to oversee the first foray into cinema by the Beatles .
+The studio had discovered that the recording contract between the Beatles and EMI did not cover film soundtracks .
+Although the Beatles had yet to tour the United States , the group 's popularity in Britain was phenomenal , and United Artists decided to exploit it by putting out a cheaply made film as a pretext for a soundtrack album .
+He hired Richard Lester , a fellow American , to direct .
+At the suggestion of Paul McCartney , he recruited the Liverpool -based playwright Alun Owen to write the screenplay .
+The film 's prospects were so little regarded that while Shenson was prepared to offer the Beatles 25 percent of the net income , the band 's manager , Brian Epstein , initially asked for only 7 percent .
+United Artists thought that the Beatles would be a short-lived phenomenon , but Shenson foresaw their staying power and struck an agreement with the studio that all rights to the film would revert to him after 15 years .
+`` A Hard Day 's Night '' was so popular that Shenson said the studio recouped what it spent on the production _ about $600,000 _ in just one day after the film 's release in 1964 .
+A reissue of the film is to appear in theaters later this year .
+Shenson was on the set every day , and after he had looked at some early rushes his wife asked him whether the Beatles could act .
+`` I don't know if they can act ,'' he replied , `` but you can't keep your eyes off them .''
+His wife , Geraldine , died last year .
+He is survived by two sons , Richard and Douglas ; a sister , Irma Levin of San Francisco ; and four grandchildren .
+NYT-11-03-00 2249EST
+NYT20001106.1705.0187 NEWS STORY 2000-11-06 18:26:00
+A9514 &Cx1f ; tta-z u p BC-BUSH-ART-NYT &LR ; 11-06 0696
+BC-BUSH-ART-NYT
+COMING FULL CIRCLE , BUSH VOWS TO END DISCORD IN WASHINGTON
+( EDS : This early version will be updated from Davenport , Iowa .) &QL ; ( ART ADV : Photos NYT11 and 25 are being sent to NYT photo clients .
+Nonsubscribers can purchase one-time rights by calling 888-603-1036 or 888-346-9867 .) &QL ; &UR ; By FRANK BRUNI &QC ; &LR ; &QL ; &UR ; c.2000 N.Y .
+Times News Service &QC ; &LR ; &QL ;
+CHATTANOOGA , Tenn. _ Nearly 17 months after he first issued his call for a `` fresh start after a season of cynicism ,'' Gov. George W. Bush ended his quest for the presidency Monday on a nearly identical note , pledging to purge Washington of what he cast as a crippling discord .
+The course that Bush charted over his final hours on the campaign trail , plotted with as much concern for symbolism as for raw electoral arithmetic , left no doubt about where he placed the blame for that atmosphere .
+His first major rally was in Tennessee and his last was planned for Arkansas , the home states , respectively , of Vice President Al Gore and President Clinton .
+The Texas governor 's words made equally clear that he saw himself as the country 's best hope for bridging ideological divides , healing partisan wounds and making sure that Americans could gaze upon the White House with unfettered respect .
+`` There 's a better day ahead if we have a leader who 's willing to unite the country , to bring people together , to elevate the people 's business above everyday politics ,'' Bush said at a rally inside a hangar at the airport here , where supporters ' chants evoked the nearness of the moment of decision .
+`` One more day !''
+they roared .
+`` One more day !''
+What the nation needed , Bush told them , was `` a president who can unite this nation , a president who puts aside the endless partisan bickering that seems to gridlock our nation 's capitol , a president who puts the people first , a president who lifts this nation 's spirits .
+`` I 'll be that president ,'' he added , a sentence that was equal parts promise and prediction .
+It underscored the optimism that Bush has , from the very beginning , sought to project to voters .
+His schedule over the course of a 16-hour day was also an expression of that confidence .
+In between Tennessee and Arkansas , his campaign plane touched down in Wisconsin and Iowa , and while any one of those four states could wind up providing the key to a Bush victory , none have as many electoral votes as such battlegrounds as Michigan and Pennsylvania .
+But they are genuine tossups that were initially predicted to be much more hospitable to Gore .
+By visiting them Monday , Bush emphasized the breadth of his appeal and the sometimes surprising vulnerability of the vice president .
+He did not let his assertion of strength and confidence distract him from the important business of beseeching supporters to grant him victory .
+With just 24 hours before Election Day , Bush in many ways stripped campaigning to its essence : coaxing and cajoling , pleading and persuading .
+`` I want you to understand that I can't win without you ,'' Bush told a crowd of more than 1,000 people at a convention center in Green Bay , Wis. `` I hope you redouble your efforts to make sure people get out to the polls .''
+Minutes later , he added : `` When you go out there and tell the folks where we stand on the issues and where we stand when it comes to bringing people together to get things done , and you tell them that the core of this campaign is the inherent trust in the American people , I believe it doesn't matter what political party they 're in .
+They 're going to come our way .''
+In Chattanooga , Bush repeatedly needled Gore , which was much of the point of going to Tennessee , where Gore is not at all certain to prevail on Tuesday .
+The Texas governor claimed that Gore 's decades of experience in Washington had estranged him from the rest of the country by making him too trusting of federal government and too fond of federal spending .
+`` My opponent vows to carry his home state ,'' Bush said .
+`` He may win Washington , D.C. , but he 's not going to win Tennessee .
+`` He forgot his roots ,'' Bush added .
+`` He forgot where he 's from .
+He trusts Washington .
+We trust the people .''
+NYT-11-06-00 1826EST
+NYT20001107.1907.0300 NEWS STORY 2000-11-07 19:07:00
+A0909 &Cx1f ; taf-z u f BC-WEB-TRACK-AD-COLUMN-N 11-07 0630
+BC-WEB-TRACK-AD-COLUMN-NYT
+ADVERTISING : TRACKING HOW WEB SURFERS ENTER SITES MAY HELP AD
+BUYERS &LR ; &QL ; &UR ; By STUART ELLIOTT &LR ; &QC ; &QL ; &UR ; c.2000 N.Y .
+Times News Service &LR ; &QC ; &QL ;
+NEW YORK _ Never mind those points of light a former president talked about .
+A research company is proposing that `` points of presence '' are what matter , at least when it comes to online marketing .
+The company , Word of Net , is introducing a system meant to measure the various points at which computer users are exposed to Web sites , wherever those exposures may occur .
+The measurement system , called the visibility index , is intended to provide information beyond the tracking of traffic to a site by tracking the exposure to sites through search engines , keyword inquiries , listings , links from other sites and category listings in online directories .
+The goal of the index is to help advertisers increase their visibility online by spending more effectively when buying banners and other types of interactive advertisements to generate traffic .
+That has become particularly important since the dot-com shake-out began and advertisement dollars have grown increasingly scarce .
+`` This is a key marketing competitive-intelligence tool because it highlights exposure all over the Internet ,'' said Astrid van Dorst , senior analyst for the e-marketing intelligence group at the Gartner Group in San Jose , Calif ., who was briefed about the index by Word of Net before its public introduction .
+`` You will see more of this as Internet metrics reaches the next level of maturity ,'' she added .
+The index data are presented as scores , which are weighted .
+The higher the score on the index , the more points of presence for a site and thus the more visible it is to consumers .
+The Web site ranked first in the initial visibility index , with a score of 973 , is www.aol.com , from America Online .
+The rest of the top five are www.zdnet.com , from CNet , with a score of 936 ; http://members.aol.com , also from America Online , 925 ; www.msn.com , from Microsoft , 922 ; and www.go.com , from the Walt Disney Co ., 915 .
+`` The real value of our technology is that it provides a way to measure return on investment for your marketing campaigns ,'' said Eric Sanders , chief executive at Word of Net in Sherman Oaks , Calif .
+`` Online advertising is a $5 billion to $7 billion industry , and it 's not nearly accountable enough ,'' he added .
+`` You can use our data to determine which of your marketing spends generate sales .''
+The index is also intended to enable advertisers to monitor how pervasive the mentions of Web sites operated by rivals may be in cyberspace .
+`` This is helpful because it gives you a sense of how you come up against your competitors ,'' said Michele Chaboudy , vice president for marketing at MarketWatch.com in San Francisco , which operates a Web site in the crowded field of financial news .
+`` And it can help you plan your marketing campaigns ,'' she added , `` because you can actually see where people are coming to your site from .''
+Chaboudy described herself as `` pretty skeptical '' about new measurements `` because I 've seen a lot of them .''
+But data that Word of Net has shared with her so far led to a decision `` to look at some places we might want to advertise ,'' where MarketWatch.com is not advertising now , she added .
+As a result , MarketWatch.com is planning to become a Word of Net subscriber , Chaboudy said , adding with a laugh , `` Of course , we always negotiate the price .''
+Speaking of money , Sanders said that Word of Net had `` raised $2 million to date '' from investors , adding that additional money was being sought .
+Among the clients of Word of Net , he listed DirecTV , Forbes , Park Place Entertainment , Tickets.com , Sony , Universal and Variety .
+NYT-11-07-00 1907EST
+NYT20001109.1946.0315 NEWS STORY 2000-11-09 20:10:00
+A3555 &Cx1f ; taf-z u p BC-ELN-NADER-NYT &LR ; 11-09 0796
+BC-ELN-NADER-NYT
+NADER VOTERS GO ONLINE TO EXPRESS ANGER , REGRET AND SOME SUPPORT
+&UR ; By JAMES DAO &LR ; &QC ; &QL ; &UR ; c.2000 N.Y .
+Times News Service &LR ; &QC ; &QL ;
+WASHINGTON _ Ralph Nader may not be feeling any regrets about his Green Party presidential campaign , but some visitors to the chat room on Nader2000.org , Nader 's official campaign website , sounded as if a bad hangover had come crashing down on them .
+There was this entry , for instance , posted Thursday morning by a writer named `` wreckz '':
+`` I , too , feel I should apologize to America .
+I was duped .
+Ralph Nader 's enjoyment of all of this is an indication of a man more concerned with vindictive politics than the future of our country and planet .
+I am no longer a member of the Green Party .
+Instead , I 'm a member of the green movement _ a movement without Ralph Nader .''
+Or this one , also posted Thursday morning , from `` Noni '':
+`` I saw an interview with Ralph Nader today and he seemed to be enjoying what has happened !
+I 've never seen him smile so broadly .
+I regret my support .
+Nader , you 're a well-intending man and I agree with most of your positions .
+But the symbolic run for the White House has destroyed our Party and our cause .
+Very bad things are in our future .
+You should not be smiling .
+And we , the misled , should feel shame for what we 've done .''
+The remarks expressed fears that votes for Nader may have put Gov .
+George W. Bush in a position to defeat Vice President Al Gore .
+In Florida , where Gore trailed Bush by only a few hundred votes Thursday , a shift of just a fraction of Nader 's 95,000 votes could have given the state , and the White House , to Gore , the most likely major-party alternative for Nader 's supporters .
+John Ruth , for example , wrote on the Nader2000 site Thursday morning that he voted for Nader because he thought they `` shared a common goal '' but that he was now regretting it .
+`` Gore ( despite what you have said ) is NOT an environmental clone of G.W. Bush .
+Because of your actions and statements prior to Nov .
+7th , we are on the brink of a Bush presidency .
+No money , no support , no respect for you , Ralph , ever again !''
+And in Oregon , a state that was still too close to call Thursday afternoon , Nader won about 5 percent of the vote _ enough to cause some Nader voters to feel morning-after qualms .
+Julie Quastler , 28 , who voted for Nader in Portland , said on Wednesday that she was feeling `` a little alarmed and disappointed '' that Bush seemed on the brink of winning the presidency _ suggesting that she did not accept Nader 's assertion that the two parties were equally bad .
+`` I 'm just so sad ,'' she said .
+`` Bush is probably going to be our president and Nader didn't get his 5 percent .
+It seems like a lose-lose end result in some ways .''
+Winning 5 percent of the vote nationwide would have qualified the Green Party for millions of dollars in federal campaign funds in 2004 .
+But Quastler , the development director for a nonprofit cafe , said she did not feel guilty about her vote .
+`` I voted for Nader because he was most aligned with my values ,'' she said .
+Of course , there were also countless verbal high-fives among Nader supporters Thursday who felt the Green Party had sent a bracing wake-up call to the two major parties .
+`` Stand tall and proud , fellow Nader supporters ,'' said one message on the Nader2000 site signed GO LOOK ELSEWHERE FOR SCAPEGOATS .
+`` We fought the good fight for what we believed in .
+This does not make us villains .''
+Such sentiments seemed particularly strong in Florida .
+Dorothy Byrne , a state coordinator for the Florida Green Party , said she had been inundated with angry phone calls and e-mails from Democrats , but has yet to receive one regretful note from a Nader voter .
+`` I can see positives for the Greens with either Bush or Gore being president ,'' she said .
+`` If Gore was in , we wouldn't have to worry about women 's reproductive rights .
+But his record on the environment is so abysmal I don't see how Bush can be any worse .''
+Barbara Lange , the Everglades chairwoman for the Florida chapter of the Sierra Club , said she and other environmentalists voted for Nader because Gore had not taken a stand against the development of a commercial airport near the Everglades .
+`` I voted my conscience ,'' she said .
+`` And I 'm okay with that .''
+Patricia Newell , an organizer for Nader at the University of Florida in Gainesville , said that Nader had won far fewer votes in Florida than his supporters had expected _ due , she said , to `` scare tactics '' by the Democrats .
+`` Anyone who voted with Nader on Tuesday knew exactly what they were doing ,'' she said .
+`` On the contrary to feeling guilty , they feel very good about sticking with the candidate that they felt was best .''
+NYT-11-09-00 2010EST
+NYT20001111.1033.0046 NEWS STORY 2000-11-11 10:36:00
+A5480 &Cx1f ; var-z u a BC-ELN-VOTERS-REVIEW-ART 11-11 0938
+BC-ELN-VOTERS-REVIEW-ART-NYT
+WHO VOTED : A PORTRAIT OF AMERICAN POLITICS , 1976-2000
+&UR ; ( The Week in Review ) &LR ; &QL ; &UR ; ( NOTE TO INTERNATIONAL CLIENTS : For international clients ' use by special arrangement only .
+Asian and European points : contact Karl Horwitz in Paris for details and prices ( Phone : 47 42 17 11 ; FAX : 47-42-80-44 ). Latin American points : contact the Los Angeles office ( Phone : 310-996-0075 ; FAX : 310-996-0089 ) &QL ; ( ART ADV : Graphic is being sent to NYT graphic clients .
+Nonsubscribers can purchase one-time rights by calling 888-603-1036 or 888-346-9867 .) &LR ; &QL ; &UR ; By MARJORIE CONNELLY &LR ; &QC ; &QL ; &UR ; c.2000 N.Y .
+Times News Service &LR ; &QC ; &QL ;
+A majority of women , older voters , Democrats , liberals and black , Hispanic and Asian voters cast their ballots for Al Gore .
+George W. Bush captured the votes of most men, whites, conservatives, Republicans, Southerners and white Protestants .
+Ralph Nader , who received 2 percent of the vote , did best among independents , particularly liberal ones , and among young men .
+But the national election was so close because several large groups _ voters under 65 , independents , voters from the Midwest and the West and suburbanites _ divided their votes almost evenly between the two major candidates .
+The accompanying table , drawn from surveys of voters leaving the polls ( including those in Florida ), shows how different groups have voted for president since 1976 .
+Because large numbers of people are surveyed , exit polls can help measure the preferences of groups like Jewish or Asian voters or young blacks or liberal Republicans whose portion of the voting population is often too small to examine in typical telephone surveys .
+The Gender Gap
+Bush received a majority of votes from men and Gore was backed by a majority of women .
+That 's been a trend for at least 20 years : more women vote for Democrats ; more men prefer Republicans .
+This year , the gap was especially large .
+Gore got more votes from women than from men : 12 percentage points more .
+The gender gap cut across all age groups and education levels , even among black voters , who strongly supported Gore overall .
+The gender gap was widest among college graduates and unmarried voters .
+Party Identification
+Few voters crossed party lines .
+Large majorities of Republicans supported Bush .
+Gore won the votes of most Democrats .
+Voters who identified themselves as independent split almost evenly .
+Most independents who described their political ideology as liberal supported Gore .
+Bush was backed by independents who characterized themselves as conservative .
+Moderate independents were very closely divided .
+Where They Live
+As in 1996 , most Easterners supported the Democrat .
+But while four years ago , Southerners were evenly divided between Bill Clinton and Bob Dole , this year Bush carried the the South .
+The Midwest and the West were almost evenly divided between the two candidates .
+Gore did best among urbanites .
+Bush ran stronger in smaller towns and in rural areas .
+Suburban voters split about evenly .
+Pocketbook Concerns
+Voters who say their finances have improved during a president 's tenure usually favor the incumbent , while the challenger is preferred by those who say their financial situation has deteriorated .
+That held true this year .
+Gore was strongly backed by voters who said their family 's finances were better than four years ago .
+Bush won the support of those who said their financial situation had deteriorated .
+In 1996 , one in three voters said their economic situation had improved over the previous four years .
+This year , half did .
+Generally , those who say their economic conditions have not changed divide their support between the two major candidates pretty evenly .
+This year , though , two in three voted for Bush .
+Data for 2000 were collected by Voter News Service based on questionnaires completed by 13,279 voters leaving 300 polling places around the nation on Election Day .
+Data for 1996 were based on a survey conducted by Voter News Service based on questionnaires with 16,627 voters .
+Data for 1992 were based on a survey conducted by Voter Research and Surveys with 15,490 voters .
+Data for 1976 through 1988 were based on surveys conducted by The New York Times and CBS News : 11,645 in 1988 ; 9,174 in 1984 ; 15,201 in 1980 and 15,300 in 1976 .
+Family income categories in 1976 : Under $8,000 , $8,000-$12,000 , $12,001-$20,000 , and over $20,000 .
+In 1980 : Under $10,000 , $10,000-$24,999 , $25,000-$50,000 and over $50,000 .
+In 1984 : Under $12,500 , $12,500-$24,999 , $25,000-$50,000 and over $50,000 .
+In 1988 : Under $12,500 , $12,500-$24,999 , $25,000-$50,000 , over $50,000 and over $100,000 .
+In 1992 : Under $15,000 , $15,000-$29,999 , $30,000-$49,999 , $50,000 and over , and $100,000 and over .
+The category of independents includes respondents who indicated they considered themselves `` something else '' in 1972 , 1992 , 1996 and 2000 .
+`` Something else '' was not an option the other years .
+Male and female college graduates include those with postgraduate education .
+In 1984 , first-time voter refers to voters first registered to vote in that year .
+In 1976 and 1980 the Congressional vote does not include New York and California .
+Family financial situation is compared to one year ago in 1976 and 1980 and four years ago in 1984 , 1992 , 1996 and 2000 ; 1976 and 1984 data are from NBC News .
+Those who gave no answer are not shown .
+Dashes indicate that a question was not asked or a category was not provided in a particular year .
+Asterisks indicate that there was an insufficient number of respondents .
+NYT-11-11-00 1036EST
+NYT20001111.1247.0093 NEWS STORY 2000-11-11 13:18:00
+A5549 &Cx1f ; taf-z u i BC-MIDEAST-VIOLENCE-NYT &LR ; 11-11 0834
+BC-MIDEAST-VIOLENCE-NYT
+ASSASSINATION OF PALESTINIAN IGNITES MORE VIOLENCE
+&UR ; By JOHN KIFNER &LR ; &QC ; &QL ; &UR ; c.2000 N.Y .
+Times News Service &QC ; &LR ; &QL ;
+JERUSALEM _ The commander of Israeli troops in the West Bank said there was a simple goal to the helicopter assassination on Thursday of a gun -wielding local Palestinian leader .
+`` I hope it will reduce the violence and bring back reason to this area ,'' Maj .
+Gen. Yitzhak Eitan told reporters at a briefing hours after three missiles fired from an Apache helicopter killed Hussein Obaiyat , along with two middle-aged women standing near his van in Beit Sahur , near Bethlehem .
+Instead , it has touched off one of the bloodiest and most intense weekends of fighting yet in the six-week-old conflict , with gunfire crackling through the West Bank and Gaza Strip .
+Five Palestinians and an Israeli soldier were shot dead on Friday .
+Gunfire between Palestinian positions and Israeli areas continued through the night around Ramallah and Bethlehem , and by nightfall on Saturday more Palestinians were dead and an Israeli soldier critically wounded , raising the death toll to at least 200 .
+Indeed , the escalation of gunfire is being described by both Palestinians and Israelis as a `` Lebanonization '' of the conflict to a state resembling guerrilla war .
+Two Palestinians were killed as they staged a drive-by ambush on an Israeli jeep in the Gaza Strip near the Israeli settlement of Gush Katif Saturday afternoon , and two Israeli soldiers were wounded , one critically .
+As the Israelis retrieved and held on to the two bodies , a large crowd of Palestinians gathered .
+Men in civilian clothes in the crowd began firing with AK-47 assault rifles and a 45-minute gun battle broke out .
+The situation remained tense as dusk fell , with an army helicopter hovering overhead as Palestinian police evacuated their post for fear it would be attacked by rockets .
+The clashes started early in Gaza .
+A 12-year-old Palestinian boy was shot dead when troops opened fire on a crowd of stone throwers near the Erez checkpoint .
+In Jenin , on the West Bank , a Palestinian identified as Hani Marzouq , 37 , died in a hospital from neck and chest wounds suffered in the widespread clashes on Friday .
+In Hebron , thousands of mourners crowded the streets for the funeral of Raed Mohtaseb , 27 , chanting `` the blood of the martyrs is calling us .''
+Mohtaseb was shot while riding in a car driven by his father , Saedi Mohtaseb , who is a senior official in Yasser Arafat 's Fatah organization in the tense , embattled city where a handful of Jewish settlers are surrounded by Palestinian residents who have been kept under frequent curfew .
+The Palestinians charge that the shooting was an attempt to assassinate a Palestinian official .
+The army issued a statement saying it `` denies any attempt to assassinate a Fatah member or a senior official of the Palestinian authority .''
+An American news photographer , Yola Monakhov , was shot and wounded by Israeli troops while covering a stone -throwing confrontation at Rachel's Tomb , near Bethlehem , Palestinian hospital officials said .
+Monakhov , a 26-year-old free-lancer on assignment for The Associated Press , suffered a fractured pelvis , hospital officials said .
+The assassination of the once-relatively obscure Fatah leader Obaiyat , whom the army blamed particularly for leading nocturnal shooting on Gilo , a neighborhood in southeastern Jerusalem , was regarded as a grave step by Israeli commentators .
+Writing in the newspaper Haaretz before Friday 's marked increase in Palestinian gunfire , Amir Oren described the strike as `` a critical point , almost a point of no return , in the scale of violence .''
+In Yedioth Ahronoth , Roni Shaked wrote : `` The use of helicopter missiles as a tool of assassination is a step on the way to the ` Lebanonization ' of the territories .''
+Shaked added : `` In the short term _ and this was also the assessment of the General Staff _ the Palestinians will step up their hostilities in response to the slaying .
+But the army believes in the long run such proactive operations will lead to a decrease in terrorism .''
+The surge in violence came as Prime Minister Ehud Barak prepared for a meeting on Sunday with President Clinton in Washington .
+But no one here seemed to be holding out hopes that the meeting would bring calm soon .
+Barak said on Friday , before much of Israel closed down for the Sabbath , that the talks would be an effort to end the violence , but added he did not expect they would `` lead to a renewal of negotiations .''
+With the seven-year-old peace process in tatters , one senior Palestinian figure , Parliament speaker Ahmed Korei , known as Abu Ala , insisted that Israel must halt all settlement building , accept an international peacekeeping force to protect Palestinians and allow the United Nations a role in the peace process , before talks could be resumed .
+These are conditions that are anathema to the Israelis and are unlikely to be met .
+NYT-11-11-00 1318EST
+NYT20001114.0210.0200 NEWS STORY 2000-11-14 15:53:00
+A8685 &Cx1f ; taf-z u d BC-SIMPLE-COOKING-NYT &LR ; 11-14 0619
+BC-SIMPLE-COOKING-NYT
+PUDDING , SWEET AND NOT
+&UR ; By MARK HULBERT &LR ; &QC ; &QL ; &UR ; c.2000 N.Y .
+Times News Service &LR ; &QC ; &QL ;
+NEW YORK _ Bread pudding is one of the most traditional American dishes ; cookbooks from the 18th century have recipes for it that are more or less the same as what we make today .
+But bread pudding is also a minimalist sort of dish , no more than dry bread mixed together with milk and eggs and whatever flavor strikes the cook , and then baked until it is rich and custardy .
+It can be savory or sweet , and either makes a simple , interesting substitute for a standard part of the Thanksgiving meal .
+Savory bread pudding is a luxurious side dish that can be served in place of stuffing .
+Or it can be the extra stuffing that everyone always wants ( but not dry like the usual kind baked outside a turkey can be ).
+My basic recipe combines the cubed bread , eggs and milk with a couple of cheeses .
+( If you 're desperate for oven space , bake it and then heat it just before serving , or serve it at room temperature .) You can make it without the mushrooms , too .
+The pudding can also be varied by adding a pinch of thyme or sage , chopped nuts or cooked chestnuts , or about a cup of grated sweet potato or chopped scallions .
+If you want a pudding that tastes more like stuffing , just add chopped celery , onions , carrots and herbs .
+Sweet bread pudding is made the same way , but with fewer ingredients .
+I use maple syrup instead of sugar for the extra flavor and moisture .
+You can add more spices , including a small grating of nutmeg , chopped crystallized ginger , raisins or prunes soaked in Armagnac .
+The kind of bread you choose makes a difference .
+Fluffy packaged white bread disappears ; the crusts of crisp baguettes and peasant breads never become tender .
+For savory pudding , stick to long , wide inexpensive loaves , usually called Italian bread ; for sweet pudding , stale hallah is best .
+And make sure the bread is thoroughly and evenly soaked before it 's baked ; I like to submerge the bread with a weighted plate before baking .
+Then you don't even have to stir .
+&UR ; SWEET BREAD PUDDING &LR ;
+&UR ; Time : 1 hour , largely unattended &LR ;
+4 tablespoons butter
+6 cups white bread , cut or torn into 1-inch chunks
+2 cups half-and-half
+4 eggs
+} cup maple syrup or sugar
+{ teaspoon cinnamon
+Pinch salt .
+1 .
+Butter an 8-inch souffle or baking dish , and add bread .
+Cut remaining butter into bits , and combine with all other ingredients ; pour over bread .
+Submerge bread with weighted plate , and turn oven to 350 degrees .
+2 .
+When oven is hot , remove the plate and bake until pudding is just set , 35 to 45 minutes .
+Serve with or without whipped cream .
+Yield : 6 or more servings .
+Variation : To make chocolate bread pudding , melt 2 ounces chopped bittersweet chocolate in the milk , let cool slightly and add to mixture .
+&UR ; SAVORY BREAD PUDDING &LR ;
+&UR ; Time : 1 hour , largely unattended &LR ;
+2 tablespoons butter or olive oil , plus more for greasing the pan
+6 cups dense white bread , cut or torn into 1-inch chunks
+2 cups milk
+4 eggs
+Salt and fresh black pepper
+2 ounces grated Parmesan
+4 ounces freshly grated semisoft cheese , like Emmenthal
+1 cup sliced shiitake mushroom caps .
+1 .
+Butter or oil an 8-inch souffle or baking dish , and put bread in it .
+Combine everything but shiitakes , and pour over bread .
+Submerge bread with a weighted plate , and turn oven to 350 degrees .
+Heat 2 tablespoons butter or oil in a saute pan , add shiitakes and saute until tender , about 10 minutes .
+2 .
+Remove plate , and stir in mushrooms .
+Bake until pudding is just set , 35 to 45 minutes .
+Yield : At least 6 servings .
+NYT-11-14-00 1553EST
+NYT20001115.2157.0439 NEWS STORY 2000-11-15 22:12:10
+A0465 &Cx1f ; taf-z u l BC-CIRCUITS-PHOTO-UPDATE 11-15 0444
+BC-CIRCUITS-PHOTO-UPDATE-NYT
+ATTENTION EDITORS :
+The following photos have been sent as part of The New York Times ' Circuits Photo Package , moving Wednesday , 11/15/00 .
+Photo clients will automatically receive our photos via AP 's PhotoExpress or may download them from either the Wieck Photo Database in Dallas at 972-392-0888 or from NYTPhotos on Newscom at 213-237-4577 or PressLink at 800-888-6195 .
+Non-clients can make individual purchases by calling ( 888 ) 603-1036 or 212-556-4204 .
+( NYT37 ) CAMBRIDGE , Mass .
+-- Nov .
+15 , 2000 -- CIR-ROBOT-DOLL -- Rodney Brooks , the 45-year-old director of the Artificial Intelligence Laboratory at the Massachusetts Institute of Technology , has spent most of his career engrossed in the question of how to model biological systems .
+Brooks is chairman and chief technical officer at iRobot , a 10-year-old robotics company in Cambridge , Mass ., that started out making robots for private missions to the moon and Mars .
+Brooks with My Real Baby doll , an animatronic doll priced at $100 .
+( Michael Quan /The New York Times )
+( NYT36 ) UNDATED -- Nov .
+15 , 2000 -- CIR-GAMES -- In the ever-shifting race for dominance between consoles and PCs , the year 2000 will probably go to the consoles .
+1 ) The Gamer PC 2 ) Gaming sound system 3 ) Game console 4 ) Online fishing reel 5 ) Voice controller ; Chip set ; Keyboard and mouse ; Game controller ; Graphics card .
+( Tony Cenicola /The New York Times )
+( NYT35 ) UNDATED -- Nov .
+15 , 2000 -- CIR-KIDS -- Long gone are the days when children 's toys were principally powered by mainsprings and imagination , when a doll capable of uttering only `` Mama '' would be considered downright chatty .
+Today a relatively advanced technology empowers much of play .
+1 ) Organizer with built-in camera 2 ) Digital music player 3 ) Drawing tablet 4 ) Music system 5 ) Robots that see 6 ) Learning blocks 7,8 ) Educational toys ( Tony Cenicola /The New York Times )
+( NYT34 ) WASHINGTON -- Nov .
+15 , 2000 -- GINGRICH -PORTRAIT -- Newt Gingrich , the most divisive figure in the recent history of the House , appealed Wednesday to both parties to work together and to listen to the fears of each other 's political bases .
+Speaking at the unveiling of his official portrait , the former speaker warned that `` otherwise we will sink deeper into two warring camps , each fearing and loathing the other .''
+Gingrich , resigned as speaker of the House after the Republicans lost seats in 1998 as his party worked to impeach President Clinton .
+Gingrich at the unveiling of his portrait in Statuary Hall at the Capitol in Washington .
+( Justin Lane /The New York Times )
+The New York Times News Services
+NYT-11-15-00 2212EST
+NYT20001116.0145.0061 NEWS STORY 2000-11-16 01:59:00
+A0861 &Cx1f ; taf-z u k BC-EDIT-VIETNAM-CLINTON- 11-16 0532
+BC-EDIT-VIETNAM-CLINTON-NYT
+EDITORIAL : A PRESIDENTIAL JOURNEY TO VIETNAM
+&UR ; c.2000 N.Y .
+Times News Service &LR ; &QC ; &QL ;
+The New York Times said in an editorial for Thursday , Nov .
+16 : The last U.S .
+president to visit Vietnam was Richard Nixon , who traveled to the South Vietnamese capital of Saigon in 1969 , at the height of a war that eventually took 58,000 American and 3 million Vietnamese lives .
+Thursday , Bill Clinton begins a three-day trip to Hanoi and Ho Chi Minh City , as Saigon is now called .
+Clinton 's visit is striking evidence of how far the two countries have moved beyond the rancor of that conflict .
+But if a healthy new relationship is to be built , Hanoi must ease bureaucratic restrictions on foreign investment and show greater respect for the civil and religious liberties of its people .
+Clinton 's itinerary inevitably looks back to war-related issues , like repatriating the remains of Americans lost in action and helping remove land mines still buried in Vietnamese soil .
+But he should also use his visit to press for a faster pace of political and economic reform .
+Much has changed in Vietnam over the past three decades .
+Most of its 79 million people have been born since the war ended , and younger Vietnamese , in particular , look admiringly upon American prosperity and personal freedoms .
+While the Communist Party still jealously monopolizes government power and public political debate , ordinary Vietnamese are no longer afraid to talk about politics in private .
+But anyone who speaks out for more accountable government or wider freedom faces stern repression .
+Hanoi continues to jail open critics , persecute religious believers , censor newspapers , restrict the Internet and otherwise suppress dissent .
+It routinely violates provisions of the International Covenant on Civil and Political Rights , to which it acceded in 1982 , guaranteeing freedom of expression , association and religious belief and prohibiting arbitrary detentions .
+After a disastrous decade of trying to impose North Vietnam 's austere and repressive communism on the more freewheeling South , the country 's leaders reversed course in the late 1980s and began encouraging Southern style entrepreneurship .
+But over the past three years , Vietnam 's program of market liberalization has stalled as the country 's political leaders have grown concerned about decentralizing economic power .
+Foreign investors have become frustrated with the Vietnam 's bureaucratic hurdles and have taken their investments to China and other Southeast Asian nations .
+When Clinton talks to university students in Hanoi on Friday he should speak plainly about the merits of human rights , democracy , free markets and the rule of law , as he did during his 1998 trip to China .
+He also needs to raise these issues in his discussions with government and Communist Party leaders as well .
+Establishing firm legal protections for Vietnamese - Americans who want to return home to do business should be an important part of his agenda .
+He would also do well to follow the advice of Sen .
+John McCain and others and seek to expand legal exchange programs to cover press and human rights issues as well as commercial law .
+NYT-11-16-00 0159EST
+NYT20001119.2132.0191 NEWS STORY 2000-11-19 21:52:00
+A4616 &Cx1f ; tib-z u k BC-SAFIRE-COLUMN-NYT &LR ; 11-19 0752
+BC-SAFIRE-COLUMN-NYT
+COMMENTARY : ARAFAT'S ` WAR PROCESS '
+( Essay ) &QL ; &UR ; By WILLIAM SAFIRE &LR ; &QC ; &QL ; &UR ; c.2000 N.Y .
+Times News Service &LR ; &QC ; &QL ;
+WASHINGTON _ When the leader of the Hezbollah in Syrian -occupied Lebanon came up with a plan to kidnap three Israeli soldiers six weeks ago , his Iranian sponsors cautioned him to first get the approval of Bashar Assad , the new president of Syria .
+That 's because Israel was expected to retaliate against Hezbollah forces in areas controlled by Syrian troops .
+Ever since Israel 's troops pulled out of its Lebanese buffer zone , Hezbollah 's terrorism has been closely coordinated with Bashar in Damascus .
+Usually reliable intelligence sources note that the inexperienced Bashar , eager to establish credentials in the Arab world as a militant enemy of Israel , gave his approval to the kidnap plan .
+This despite the danger that the Hezbollah 's capture of Israeli soldiers could lead to armed confrontation in Lebanon between Syrian and Israeli forces .
+On or about Oct .
+8 , Hassan Nasrallah , secretary general of Hezbollah , reported directly to Bashar that the kidnapping had been carried out as planned .
+Bashar was heard to have congratulated him on its `` smooth execution ,'' goes the undercover account , and assured the terrorist leader full backing against anticipated mild U.N. reaction as well as a stronger response from Israel .
+The risk accepted by Arab and Persian leaders in a daring provocation within what Israel considers its territory was evidence of what is emerging as Yasser Arafat 's strategy .
+From his turnabout that so surprised President Clinton at the Camp David fiasco , to his reluctance to speak out to restrain the rioting of Palestinians and sniping of his gunmen-police , his plan can be deduced :
+First step is to transform the `` peace process ,'' which was in danger of succeeding in establishing a small Palestinian state , into a religious `` war process '' for control of Jerusalem and a state incorporating Jordan and Israel .
+What keeps Arafat in power is not the dubious economic promise of a struggling dictatorship but his militant followers ' dream of driving the Jews out of the Middle East .
+Second step is to whip up support in world opinion by creating innocent victims of Israeli guns .
+Palestinian snipers draw fire into civilian crowds for the sole purpose of sacrificing innocents , creating anguished funeral demonstrations and spreading hatred .
+Every casualty is exploitable ; every picture of a boy with a slingshot rather than a gun is a small victory ; the gut-wrenching film of the boy dying in a crossfire was a propaganda triumph .
+Though such a war process does not win military victory , it delivers results : In a much less well-armed form of intifada a few years ago , it led to Oslo and ultimately to Ehud Barak 's stunning concessions .
+But to attain a goal of stimulating the defeat of Israel by Arab armies far stronger than his own , Arafat needs more than sustained low-level belligerency that wears down the Israeli will ; he needs to provoke a new Middle East war .
+That explains the campaign to sacrifice Palestinian women and children , opening the possibility for a stray Israeli shell to inflict horrific tragedy .
+Infuriated Muslims throughout the region then put pressure on shaky sheiks to support another such war .
+That 's why we see Arafat 's allies in the Hezbollah enticing Syria 's strongman into taking risks his dictator - father Hafez _ having learned a bloody lesson that cost him the Golan _ would have avoided .
+Arafat also knows that Iraq 's Saddam Hussein , developing weaponry to counter Israel 's nuclear deterrent , is spoiling to send his tanks and Scuds through Jordan into his enemy 's homeland .
+The possibility of such a Palestinian -sparked conflagration must be foremost in Barak 's mind as he deals with the rioting and kidnapping .
+He must respond with seeming toughness , lest Israelis scorn him for being weak ; yet he must not use too much firepower , lest he fall into Arafat 's wider-war trap .
+Barak 's demonstrated dovishness may force him to err on the side of using ever-greater force and thereby be drawn into Arafat 's war process .
+The paradox is that the Israeli opposition leader Arik Sharon 's longtime reputation for fierceness would enable the Likud leader to enforce separation , control military escalation and stop that war process .
+America 's mind is fixed on its own affairs , but thanks to Arafat , whoever wins the White House is sure to have a stressful first 100 days .
+NYT-11-19-00 2152EST
+NYT20001122.2009.0333 NEWS STORY 2000-11-22 20:35:00
+A8450 &Cx1f ; taf-z u f BC-EXP-LUXURY-GOODS-NYT &LR ; 11-22 0502
+BC-EXP-LUXURY-GOODS-NYT
+ANOTHER JOLLY SEASON IN STORE FOR LUXURY GOODS
+( EDS : This article is part of TIMES EXPRESS .
+It is a condensed version of a story that will appear in tomorrow 's New York Times .
+ART ADV : Graphic is being sent to NYT graphic clients .
+Nonsubscribers can make individual purchase by calling 888-603-1036 or 888-346-9867 .) &QL ; &UR ; By LESLIE KAUFMAN &LR ; &QC ; &QL ; &UR ; c.2000 N.Y .
+Times News Service &LR ; &QC ; &QL ;
+While most Americans would be content with a Sony Playstation II or a sweater twin set under the tree this year , for an increasing number of people mere cashmere does not say `` I love you '' with quite the same authority as pashmina .
+The economy may be slowing somewhat , but the top slice of income earners is still sitting on a huge pile of wealth and is expected to propel such purveyors of designer delectables as Tiffany &AMP; Co .
+and the Neiman Marcus Group into yet another banner financial year .
+Every shopper vaguely suspects that there is as much art as substance in the difference between an $8 Revlon lipstick and the By Terry counterpart , going for $49 .
+But luxury-goods companies guard no secret more ferociously than the cost of making their wares .
+`` We are uncomfortable even with the question ,'' said Christina Kim , a spokeswoman for Hermes of Paris .
+Still , it is possible to gain glimpses of enlightenment .
+Public companies have to report gross margins _ the money they take in after the costs of making their goods are deducted .
+For a luxury company like Gucci or Estee Lauder , that number usually runs in excess of 60 percent of total revenues .
+That means the actual cost of making their stuff , from sweaters to thigh-high leather boots , is less than 40 percent of the average price tag .
+( By contrast , gross margins at the Gap and other chain apparel stores rarely rise above 45 percent .)
+And as profitable as cosmetics and accessories can be , most luxury houses have at least one other blockbuster that is a deep well of cash .
+For example , one executive at a luxury house explained the rough cost of producing a high-quality leather handbag .
+The finest leather from an Italian ( only !) tannery costs $50 to $60 .
+The labor of a master craftsman to cut and stitch the bag costs roughly $72 .
+The exclusive metal hardware , like the logo and locks , might account $45 .
+Add another 5 percent for miscellaneous costs , and all in all there is $180 worth of bag .
+And that stays the same , this executive says , whether you are paying $460 for Escada 's new handbag in turquoise leather or $4,800 for that forest green Hermes Kelly handbag that is so frequently out of stock .
+To be fair , there are very real expenses that will cut the final profit on luxury products : advertising , fabulous parties to create buzz , rents on the fanciest boulevards and salaries to the fine-boned sales clerks who speak in charming foreign accents , to name a few .
+But do those outlays for image really change the intrinsic worth of the product ?
+Suffice it to say that fine minds differ .
+NYT-11-22-00 2035EST
+NYT20001122.2009.0341 NEWS STORY 2000-11-22 20:58:00
+A8464 &Cx1f ; taf-z u a BC-MASS-NURSE-TRIAL-NYT &LR ; 11-22 0494
+BC-MASS-NURSE-TRIAL-NYT
+EX-NURSE ON TRIAL IN SUSPICIOUS PATIENT DEATHS
+&UR ; By CAREY GOLDBERG &LR ; &QC ; &QL ; &UR ; c.2000 N.Y .
+Times News Service &QC ; &LR ; &QL ;
+SPRINGFIELD , Mass. _ `` There was a coldness in Ward C ,'' the prosecutor began his wintry tale of white-coated murder this week .
+`` It was a deep , eerie , unsettling feeling that something terribly , terribly wrong was happening ,'' Assistant U.S .
+Attorney William Welch II went on .
+Patients were succumbing to sudden cardiac arrest at an alarming and suspicious rate .
+Finally , he said , in February 1996 , `` three registered nurses came forward to report a patient 's , a health care professional 's , a hospital 's worst nightmare : There was a killer amongst them .''
+That killer , prosecutors charge , is Kristen Gilbert , 33 , a former nurse , who is on trial in federal court here , accused of murdering four patients and trying to kill three others by poisoning them with epinephrine , a stimulant that sent their hearts racing out of control .
+Massachusetts is one of 12 states that lack the death penalty , but Gilbert 's is a capital case nonetheless , because the alleged crimes occurred on federal property _ the Veterans Affairs Medical Center in Northampton , Mass. And so the case is being tried in federal court , where prosecutors can , and say they will , seek the death penalty .
+In an opening argument on Monday , the defense lawyer , David P. Hoose , emphasized that no one had seen Gilbert poison the patients .
+He said that the patients were very sick and that the prosecution 's claims that evidence of epinephrine poisoning was found in the exhumed bodies of patients were based on shoddy science .
+The case is really about `` an investigation that started with a conclusion and then worked backwards to fill in the gaps ,'' he said .
+`` And the proposition they started with was that people were injected with epinephrine , and Kristen Gilbert did it .''
+As Welch depicted her , Gilbert reveled in the excitement and attention of the emergency calls made whenever a life-threatening situation arose , and went out of her way to create emergencies by injecting patients with epinephrine .
+She had a particular reason to crave that spotlight , he said : Though married and the mother of two boys , she began an affair in late 1995 with one of the hospital 's security police , James Perrault , and he would be summoned to help whenever an emergency call was made .
+Welch also said Gilbert had confessed to Perrault , who would testify .
+Welch described a pivotal moment on Feb .
+15 , 1996 , when a suspicious colleague of Gilbert 's , Kathy Rix , counted three ampules in the intensive care unit 's medicine cabinet at 4 p.m .; an hour later , after an emergency call that involved Gilbert , she counted again and found none , and then saw three broken ampules in the needle disposal bucket .
+`` She felt sick to her stomach and her knees about buckled ,'' Welch said , `` because she now knew what had been happening on Ward C .''
+NYT-11-22-00 2058EST
+NYT20001123.1511.0062 NEWS STORY 2000-11-23 17:17:00
+A9034 &Cx1f ; taf-z u f BC-QUESTIONS-AD-COLUMN-N 11-23 0790
+BC-QUESTIONS-AD-COLUMN-NYT
+ADVERTISING : FOLLOW THE QUESTIONS INTO A ` CHAD , CHAD , CHAD , CHAD
+WORLD ' &LR ; &QL ; &UR ; By STUART ELLIOTT &LR ; &QC ; &QL ; &UR ; c.2000 N.Y .
+Times News Service &LR ; &QC ; &QL ;
+It 's time again to ask 20 questions about advertising , marketing and the media .
+_ Will Americans ever refer to the day before Thanksgiving as `` Thanksgiving Wednesday ,'' as ABC did repeatedly this week in commercials promoting its Wednesday sitcoms `` The Drew Carey Show '' and `` Spin City ''?
+_ If a Hollywood studio makes a movie about the Florida election standoff , would the title be `` It 's a Chad , Chad , Chad , Chad World ''?
+_ How many readers of The Wall Street Journal noticed that an article on Wednesday carrying the headline `` Genetically Altered Protein Is Found in Still More Corn '' ran adjacent to an advertisement for a golf tournament on Fox Sports sponsored by Sun Microsystems that featured a fanciful photograph of a gigantic ear of corn as big as a Buick ?
+_ Doesn't a new television commercial for Fidelity Investments , centered on a telephone conversation between a female employee and a male customer , resemble a Citibank campaign from the late 1980s that was so brilliantly parodied as the `` First Citiwide Change Bank '' commercials on `` Saturday Night Live ''?
+_ Did shoppers at the New York supermarket chain Gristede's rush to take advantage of a recent sale on the `` BIG 150-count box '' of Scotties facial tissues , or did they recall that Scotties has usually come in a 175-count box ?
+_ Can Ocean Spray Cranberries get a refund on a full-page ad that ran in newspapers on Nov .
+8 and carried the headline `` Now That the Election Is Over , You Can Focus on Some Real News ''?
+_ Was it a coincidence that an ad for the Carnation Coffee-mate line of coffee creamers in the recent issue of In Style Entertaining 2000 magazine ran opposite an article about `` great trends '' in party-giving that began by describing carnations as `` the chic flower of the moment ''?
+_ Should an English teacher have been consulted before the Tropicana division of PepsiCo produced posters that described its Pure Premium orange juice as being `` as packed with Vitamin C as a bus on a rainy day ''?
+_ Will Jack Nicholson , Helen Hunt , Greg Kinnear and James L. Brooks complain about an ad from Campbell Soup Co .
+for Campbell 's Cream of Mushroom soup that carried the slogan `` As m'm !
+m'm !
+good !
+as it gets ''?
+_ Now that the Roundabout Theater Company is calling its new facility in Times Square the American Airlines Theater , will the ushers give out peanuts instead of Playbills ?
+_ Why did the Reader's Digest Association go to the trouble of airbrushing the identifying information from a label on a pair of jeans worn by a man in a photograph featured in an ad for Reader's Digest magazine , but leave the red tab on the back pocket that tells everyone the pants are Levi 's ?
+_ Do television commercials for prescription drugs disclose that side effects in tests were no worse `` than a sugar pill '' because research found that consumers weren't familiar with the word `` placebo ''?
+_ What was in the zeitgeist that led two disparate advertisers _ Empire Blue Cross Blue Shield and the MSN network of Microsoft _ to introduce about the same time campaigns centered on butterflies ?
+_ And what was in the zeitgeist that led two automotive marketers _ Land Rover and Volvo _ to introduce about the same time commercials centered on drivers rescuing animals on rainy roads ?
+_ Are folks old enough to remember the heyday of the radio and television personality Arthur Godfrey reminded of his longtime greeting , `` How are ya ?,'' every time they hear the name of the new Lucent Technologies spinoff company , Avaya Communication ?
+_ How appealing was a recent offer made by Sprint Communications Co .
+to give buyers of a Sprint PCS telephone and a calling plan a free `` pre-owned phone ''?
+_ Was it an inside joke that the name of the character played by John Corbett on `` Sex and the City ,'' Aidan Shaw , was almost identical to the name of a longtime star of gay sex films , Aiden Shaw ?
+_ How many tickets did the Houston Grand Opera sell after mailing out a promotional brochure featuring photographs of cattle with headlines like `` It 's udderly fantastic entertainment !''
+and `` Great opera .
+No bull .''?
+_ If CBS shows the first episode of `` Survivor II '' after its broadcast of Super Bowl XXXV , will the network someday show the first episode of `` Survivor XXXV '' after its broadcast of Super Bowl LXVIII ?
+_ Will cheerful chorus members dressed in V-neck sweaters interrupt their serenades to online shopping long enough to tell an advertising columnist , `` You ask a lot of questions for someone from Brooklyn ''?
+NYT-11-23-00 1717EST
+NYT20001124.2050.0257 NEWS STORY 2000-11-24 20:52:00
+A0034 &Cx1f ; taf-z u f BC-ASIAN-ECONOMIES-NYT &LR ; 11-24 0750
+BC-ASIAN-ECONOMIES-NYT
+EXPANDING ASIAN ECONOMIES DEFY CAUTIOUS FORECASTS BY INTERNATIONAL
+ECONOMISTS &LR ; &QL ; &UR ; By MARK LANDLER &LR ; &QC ; &QL ; &UR ; c.2000 N.Y .
+Times News Service &LR ; &QC ; &QL ;
+HONG KONG _ For most of this year , Asia 's economies have performed a sort of levitating act _ growing by double-digit rates month after month even as economists predicted they would fall to earth .
+That dichotomy was on vivid display here Friday : Hong Kong reported that its economic output surged 10.4 percent in the third quarter , and it raised its projection for full-year growth to 10 percent from 8.5 percent .
+Yet a block away , the International Monetary Fund warned in a news conference that Asian economies could be hit hard by soaring oil prices and turmoil in the financial markets .
+The IMF said a $5 increase in the price of a barrel of oil could slow the growth rates of Asian countries next year .
+`` The prospects for growth in 2001 have weakened ,'' said David Robinson , assistant director of research at the fund .
+`` There has also been increased political instability across the world , not least in Asia .''
+Several Asian countries _ notably the Philippines , Taiwan , and Indonesia _ have been gripped by political tumult in recent weeks .
+The Philippines president , Joseph Estrada , was impeached last week , while Chen Shui-bian , the president of Taiwan , is trying to fend off a recall vote .
+Even in more stable countries , like Malaysia and South Korea , Robinson said the Fund was concerned by the haphazard pace of economic reforms .
+In many countries , the banks and corporations remain financially shaky .
+`` We 're still seeing chaebols in deep trouble ,'' he said , referring to Korea 's heavily indebted conglomerates .
+But Robinson acknowledged that these weaknesses had not yet been reflected in the economic performance of the countries .
+On Tuesday , South Korea reported a 9.2 percent increase in its third-quarter output _ beating the estimates of most analysts and extending a string of powerful quarters .
+Indonesia , Malaysia , and Singapore have also beaten expectations , while Hong Kong 's growth rate was nearly three percentage points above a median forecast of 12 economists surveyed by Bloomberg News .
+Like other Asian economies , Hong Kong has been buoyed by an unquenchable appetite for its exports , principally in the United States .
+Exports surged 17.7 percent in the third quarter .
+Hong Kong has done a particularly booming business in repackaging and shipping goods from mainland China .
+Consumer spending rose by a much less impressive 5.6 percent , as retail sales slackened from the second quarter .
+And consumer prices fell 2 percent , extending a decline that began during the crisis .
+Ian Perkin , chief economist at the Hong Kong General Chamber of Commerce said the double-digit growth in Hong Kong and other Asian countries masked their underlying condition .
+While the region 's growth in exports has been torrid , domestic demand has remained tenuous .
+`` We haven't built up our domestic economies yet ,'' he said .
+`` The recovery has relied almost completely on export growth .
+`` If consumer spending slows down in the States , it will have a devastating effect on Asia ,'' said Perkin .
+`` 2001 could be a crunch year .''
+Robinson of the IMF was similarly wary about next year .
+In October , the IMF projected that the world economy would grow 4.2 percent in 2001 , while Asia as a region would grow 6.6 percent .
+On Friday , Robinson said the growth rate could be lower , though he would not say by how much .
+A principal culprit of possibly slower growth is the dependence of many Asian countries on imported oil .
+Oil prices have risen $5 per barrel since the IMF issued its semi-annual economic outlook in October .
+Asia has little control over oil , but Robinson said the region could improve its economic prospects by calming its political waters .
+One bright spot in the Asian landscape is China , which is on track to record 8 percent growth in 2000 .
+Robinson said the main question facing Chinese leaders was whether they need to spend billions of dollars in public funds to further stimulate an economy that was already expanding .
+Like Perkin , Robinson said Asia 's future depended in large part on the health of the United States .
+But he disputed those who predict dramatically slowing growth _ the so-called hard landing _ for the American economy .
+`` The chances of that happening are less than 40 percent ,'' he said , `` substantially less .''
+NYT-11-24-00 2052EST
+NYT20001125.1558.0117 NEWS STORY 2000-11-25 15:58:00
+A0481 &Cx1f ; taf-z u a BC-MICH-HUNTING-ACCIDENT 11-25 0651
+BC-MICH-HUNTING-ACCIDENTS-NYT
+SAFETY WORRIES INCREASE AS MICHIGAN HUNTERS TAKE GUNS UP TREES
+&UR ; c.2000 N.Y .
+Times News Service &LR ; &QC ; &QL ;
+GROSSE POINTE PARK , Mich. _ It is deer hunting season in Michigan , and hunters who climb trees with loaded shotguns have state officials redoubling safety education efforts .
+Two men have been killed , and a third has been injured since the hunting season opened on Nov .
+15 .
+All three accidents involved shotguns , elevated platforms and a practice relatively new to Michigan hunters _ shooting at deer from trees .
+The Michigan season , one of the busiest , continues through Nov .
+30 .
+Firearm hunting from elevated platforms has long been legal in other states with heavy hunting , like New York and Pennsylvania .
+But the practice is only in its third season in Michigan , and officials say it appears that hunters still have a lot to learn about safety .
+Lt. Suzanne Koppelo , hunter safety administrator of the law enforcement division of the Michigan Department of Natural Resources &UR ; , &LR ; said that since firearm platform hunting began in Michigan there had been seven shooting accidents linked to the practice .
+Three were fatal .
+Two hunters shot themselves on platforms and another was killed on the ground by a hunter shooting from a platform .
+`` If hunters exercised the kind of caution one would expect at heights of 20-some feet , it would be almost a nonissue ,'' said Koppelo .
+`` But given human nature , that 's not the case .''
+More than 750,000 licensed hunters are taking to the Michigan woods this year , where they are expected to kill about 500,000 of the state 's 1.9 million deer .
+The numbers reinforce the need to improve education about platform hunting with firearms , Koppelo said .
+The practice is more commonly associated with hunters using bows and arrows .
+Instead of hiding on the ground or walking through the woods , they wait quietly , typically at a height of 15 to 20 feet , and fire down at deer that wander below .
+Despite the hunter killed from the platform , Sgt. Larry D. Sargent , hunter education field coordinator for the law enforcement division , says the practice does offer one safety advantage : errant shots typically thump harmlessly to the ground , rather than whistling through the woods and striking other people .
+The problems primarily arise when hunters get in and out of position .
+`` It 's kind of hard climbing a tree with a gun ,'' Rob Williams said , as he and a hunting partner , Art Bush , waited on a recent morning in a conventional earthbound hunting blind about 20 miles west of Detroit .
+For Williams , Rule No .
+1 is not to climb a tree with a loaded gun .
+He says that when he hunts from a platform he climbs up with a rope dangling from his belt to his gun , which he leaves unloaded on the ground .
+When he is secure in his stand , he pulls his gun up after him and loads it .
+Sargent says this is proper procedure .
+One accident this year , however , illustrates the importance of following each step of the safety procedures .
+A 16-year-old hunter used a haul line , but it was tied to the trigger guard and he left the gun loaded , Koppelo said .
+The teen-ager 's gun went off and he was shot in the foot .
+Others are hurt falling out of trees .
+Koppelo said that state officials were trying to keep count of these injuries but that it was difficult , since they relied on hunters reporting minor accidents .
+`` A lot of guys are embarrassed ,'' Sargent said .
+`` They 'll say they fell working in the yard or something .''
+Others , Koppelo says , do not want to report accidents for fear the law will be changed .
+And she adds that though anecdotal reports show Michigan 's large hunting population to be taking slowly to firearm deer hunting from platforms , most expect the practice to catch on as it has in other states .
+As Peter Thompson , a 16-year-old hunter , said , `` Usually the deer don't look up .''
+NYT-11-25-00 1558EST
+NYT20001127.2103.0306 NEWS STORY 2000-11-27 21:10:00
+A2399 &Cx1f ; taf-z u p BC-ELN-BUSH-CARD-NYT &LR ; 11-27 0909
+BC-ELN-BUSH-CARD-NYT
+WASHINGTON INSIDER AND FAMILY LOYALIST POISED TO BE BUSH
+CHIEF-OF-STAFF &LR ; &QL ; &UR ; By ELAINE SCIOLINO &LR ; &QC ; &UR ; &QL ; c.2000 N.Y .
+Times News Service &QC ; &QL ; &LR ; WASHINGTON _ The way Andrew H. Card Jr .
+tells it , the first time he ever set eyes on George W. Bush in Kennebunkport , Maine , in 1979 , the younger Bush cut a most unimpressive profile .
+&HT ; Bush was a defeated politician who had failed in his bid the year before to become a congressman from Texas .
+And Card , a Republican state legislator from Massachusetts helping the elder George Bush seek the Republican nomination for president , was taken aback by the difference between what he saw as the patrician father and plebeian son .
+`` I expected to see a Yalie and what I saw was West Texas ,'' Card said in a telephone interview of that first encounter with the younger George .
+`` He was wearing cowboy boots and dirty jeans and was chewing tobacco and it was drooling out of his mouth .''
+But then , Card spun positive , adding : `` He was sincere , warm and inviting .
+I liked him right off the bat because he was a regular , real person .''
+Now Card , 53 , is the younger Bush 's chief-of-staff-in-waiting , poised to move into a crucial office in the West Wing should Bush be validated as president .
+People who have worked with Card over the years say that he would bring to the job total loyalty to the Bushes , a voracious appetite for hard work , a willingness to obey orders and a manageable ego .
+`` He 's not a sparkling personality ,'' said Brent Scowcroft , the national security adviser in the Bush administration .
+`` He 's a very quiet , down-to-earth person .
+He 's a workhorse , not a show dog , absolutely .''
+Although Bush campaigned as a Washington outsider independent of his father 's strings , Card is a Washington insider , a corporate lobbyist for the automobile industry and General Motors who served in both the Reagan and Bush administrations and enjoys the ultimate trust not only of Bush but also of his father and mother .
+`` I would do anything to help his parents ,'' Card said in the interview .
+`` They were wonderful to me .
+I have an infinite amount of love for them .
+They took an interest in my wife , the challenges I went through bringing up my kids .
+But my respect for Governor Bush is independent of my love for his parents .''
+Born in Holbrook , Mass. , on May 10 , 1947 , Card graduated from the University of South Carolina with a degree in engineering .
+His wife of 33 years , the former Kathleene Bryan , whom he met in the fifth grade , was ordained as a Methodist minister two years ago .
+They have three grown children and four grandchildren .
+Card 's interest in politics began when he became president of the class of 1965 at Holbrook High School .
+After four terms in the state legislature , he ran unsuccessfully for governor in 1982 .
+Then Vice President George Bush helped land him an unglamorous but respectable job in the Reagan White House in 1983 as liaison with elected state officials , former Reagan and Bush administration officials said .
+He stayed for the rest of the administration .
+`` Vice President Bush rarely got involved in personnel matters , but he really went to bat for Andy Card ,'' recalled Chase Untermeyer , personnel director in the Bush White House .
+After serving as the elder Bush 's campaign manager for the crucial New Hampshire primary in 1988 , Card was rewarded with the job of deputy chief-of-staff in the Bush administration , and then served as secretary of transportation in its final year .
+When a hurricane struck Florida that year , Card was made President Bush 's personal emissary for disaster relief and dispatched there to dispel the widely held belief that the administration had done too little too late .
+He was one of the last people to leave the Bush administration , staying on until two months into the Clinton administration in what was referred to as the `` out-transition office '' to make sure all the Bush paperwork had been completed .
+In `` Barbara Bush : A Memoir ,'' the former first lady referred to Card as a man who repeatedly `` had come to our rescue .''
+Card stayed on in Washington , turning himself into the top lobbyist for the automotive industry .
+In 1993 , he became president and chief executive of the American Automobile Manufacturers Association , where he oversaw the lobbying against tighter fuel-economy and air pollution regulations for automobiles and in coming up with technical arguments for why industrializing nations should proceed slowly in addressing global warming .
+When that organization was dissolved in 1998 , he became GM 's vice president for government relations in Washington .
+Card prides himself on his humility .
+When he was offered the job of running the Republican National Convention in Philadelphia in July , he demurred .
+`` I told them they had the right to change their mind and asked them to stop and reflect on it '' in case there were better choices , he told an interviewer from The Patriot Ledger newspaper in Quincy , Mass. He said he did not accept the assignment until he consulted with two other lieutenants from the Bush presidency , former Defense Secretary Dick Cheney and former Secretary of State James A. Baker III .
+As for being offered the job of chief-of-staff-in-waiting , he said in the telephone interview , `` I 'm thrilled , honored , appropriate in my humility , because I have to stretch to do the job .
+But I 'd rather stretch than bend over to do it .''
+NYT-11-27-00 2110EST
+NYT20001127.2214.0372 NEWS STORY 2000-11-27 22:23:00
+A2512 &Cx1f ; taf-z u f BC-REPLAY-TV-NYT &LR ; 11-27 0403
+BC-REPLAY-TV-NYT
+UPHEAVAL , AND NEW FOCUS , AT REPLAYTV
+&UR ; By JOHN MARKOFF &LR ; &QC ; &UR ; &QL ; c.2000 N.Y .
+Times News Service &QC ; &LR ; &QL ;
+SAN FRANCISCO _ ReplayTV Inc ., a pioneering maker of digital video recorders , said late Monday that its leader of one year had resigned , that it would lay off up to half of its work force of 260 and that it plans to reshape its business strategy .
+Along with TiVo Inc ., a competing Silicon Valley startup company , Replay has been trying to build a market for computer-based systems that replace traditional videotape recorders and permit television viewers to freeze programs and rewind , and to create custom `` channels .''
+As part of its shift in strategy , Replay 's founder , Anthony Wood , will become the company 's new chief executive , replacing Kim LeMaster .
+The company also said it will try to refocus its business on software licensing arrangements made with partners , including cable service providers and makers of cable set-top boxes .
+`` The new business model is focused more intently on the cable industry ,'' said Steve Shannon , Replay 's vice president of marketing .
+He said the company was in trials with Time Warner , Comcast , Charter Communications and with AT&AMP;T .
+It also has announced a development agreement with the Motorola Corp .
+to build its software into a new generation of cable set-top boxes .
+Analysts said that despite offering free electronic service , in contrast to TiVo 's subscription service , ReplayTV has trailed in the consumer market .
+TiVo 's digital recorders are being manufactured by Sony and Phillips , while ReplayTV systems are being shipped by Panasonic .
+The company , which is based in Mountain View , Calif ., said that it has so far sold approximately 20,000 units .
+`` TiVo has had the ` wow ' factor ,'' said Josh Bernoff , an industry analyst at Forrester Research , a computer industry research and consulting firm .
+`` The result is that Replay has been left with a weakening market position and a device that works well but doesn't look as great .''
+However , that disadvantage will work to ReplayTV 's advantage in striking deals with the cable industry , he added .
+TiVo has had difficulty building alliances with cable companies , who are not generally interested in showcasing competing brands .
+On the horizon is Microsoft , which has also recently entered the market for personal video recorders with its own system , called Ultimate TV .
+NYT-11-27-00 2223EST
+NYT20001128.1940.0266 NEWS STORY 2000-11-28 19:49:00
+A3547 &Cx1f ; taf-z u f BC-TIMES-NATGEO-NYT &LR ; 11-28 0284
+BC-TIMES-NATGEO-NYT
+NEW YORK TIMES JOINS WITH NATIONAL GEOGRAPHIC FOR SCIENCE
+PROGRAMMING &LR ; &QL ; ( EDS : no byline ) &QL ; &UR ; c.2000 N.Y .
+Times News Service &LR ; &QC ; &QL ;
+NEW YORK _ National Geographic and the television production unit of The New York Times have agreed to collaborate on a weekly science program that will be shown on National Geographic 's coming cable channel beginning in June .
+The program will take its title from The Time &UR ; s ' &LR ; weekly Science Times section .
+The content will be jointly developed by the channel 's news division and the television production unit , New York Times Television , a subsidiary of The New York Times News Services .
+`` The show will be largely based on articles that The New York Times ' science section either has run or plans to run ,'' said Richard Flaste , managing editor of New York Times Television Enterprises .
+National Geographic Channel is scheduled to be available in 10 million homes this January .
+National Geographic will own one-third of the channel and the Fox Cable Networks Group will own the rest .
+The companies planning to carry the channel include AT&AMP;T Broadband , Adelphia Cable and DirecTV .
+National Geographic introduced an international channel in September 1997 that is in 115 countries and reaches 85 million homes .
+The U.S. channel will not be an extension of the overseas channel , said Laureen Ong , president of the American channel .
+The Times is already active in television through a three-year joint venture with Granada Media to produce documentaries and an experimental partnership with ABC News to produce reports for `` 20/20 '' and `` Good Morning America .''
+That agreement is scheduled to expire at the end of this year .
+NYT-11-28-00 1949EST
+NYT20001129.2040.0383 NEWS STORY 2000-11-29 20:52:00
+A4944 &Cx1f ; tta-z u p BC-R-ELN-FLA-CONTEST-ART 11-29 0817
+BC-R-ELN-FLA-CONTEST-ART-NYT
+GORE LAWYERS WANT FLORIDA HIGH COURT TO HANDLE RECOUNT , AND
+QUICKLY &LR ; &QL ; ( Repeating ; this is now a New York Times front-page story ) &QL ; ( ART ADV : Graphic is being sent to NYT graphic clients .
+Nonsubscribers can purchase one-time rights by calling 888-603-1036 or 888-346-9867 .) &QL ; &UR ; By DAVID FIRESTONE &LR ; &QC ; &QL ; &UR ; c.2000 N.Y .
+Times News Service &LR ; &QC ; &QL ;
+TALLAHASSEE , Fla. _ Lawyers for Vice President Al Gore said Wednesday their only chance for victory in his contest of the Florida election would be shattered if they have to wait until Saturday to begin counting disputed ballots , and they began an appeal to the Florida Supreme Court to do the counting itself , immediately .
+The appeal was filed with the District Court of Appeal late Wednesday afternoon , and will be submitted to the state 's highest court early Thursday , Gore 's lawyers said .
+It essentially asks the Supreme Court to take over Gore 's contest lawsuit from the slow-moving trial court , to count the ballots itself , and eventually to declare Gore the winner if he wins the recount .
+But lawyers for Gov. George W. Bush said they had no intention of allowing any hand counting to begin without a vigorous legal fight .
+To that end , they persuaded Circuit Judge N. Sanders Sauls to order 1.1 million ballots _ every vote cast in Miami-Dade and Palm Beach counties _ brought up from south Florida and placed in the court 's custody .
+That represents 83 times the number of disputed ballots that the judge had agreed on Tuesday to transport to Tallahassee at the Gore team 's request .
+And it could take weeks if not months to count them all , the point that Barry Richard , Bush 's chief trial lawyer here , said he was trying to make in requesting that the ballots be transported here .
+`` We did it to make a point ,'' Richard said in an interview .
+`` If you recount any ballots , you have to recount all of them .
+Now , we don't think any ballots should be counted , because the manual recount of ballots is finished .
+But in the event the court determines that some ballots should be counted , we wanted them here so they could all be counted .''
+Aware that they could not stop the movement of all the ballots , Gore 's lawyers barely objected to the move , asking only that the disputed ballots that might contain hidden Gore votes be separated from the mass .
+`` I know when it 's futile ,'' said David Boies , Gore 's chief trial lawyer , to Sauls .
+Nonetheless , Gore 's lawyers were furious at the move , aware that it represents yet another enormous barrier to their hopes for an immediate count of the 14,000 disputed ballots in the two counties and a quick decision from the judge that Gore really won the election .
+Even if the Florida Supreme Court should swiftly agree to their request and orders the counting to begin by Friday , that would still put them three days behind their original timetable .
+And facing a Dec .
+12 deadline for the state to name electors for the Electoral College , Gore has absolutely no days to spare .
+`` It 's a stunt ,'' said Kendall Coffey , one of Gore 's election lawyers , as he stormed out of Sauls ' courtroom Wednesday , referring to the request for all the ballots .
+`` They 're trying to bog down the case , the system , the clerk 's office and everywhere else they can .''
+The decision by Gore 's lawyers to appeal the case shows how perilous their situation is .
+By appealing , the lawyers were forced to put on paper their fear that their case could be over if they cannot begin counting ballots until Saturday .
+The decision to wait until a Saturday hearing `` is effectively a final order denying all relief sought by plaintiffs because the action now pending below must be completed before Dec .
+12 , 2000 , in order to offer any relief ,'' said the notice filed with the Court of Appeal .
+It adds , `` the court must allow sufficient time to complete an accurate and fair count of the contested ballots , which is essential for the proper resolution of the contest action .''
+But the decision to bring up all the ballots means that they will not be assembled in Tallahassee until late Friday , a day later than planned .
+And even then , the hurdles are enormous .
+There will have to be another hearing before the Florida Supreme Court , and Gore 's lawyers will have to refute three arguments to be raised by the Bush team : There should be no more counting at all ; if there is any counting , it will have to include all 1.16 million ballots ; and if there is any counting of disputed ballots , dimples cannot be counted as votes .
+If these issues are heard before Sanders , there will have to be briefs , witnesses , and evidence on each point , which could take days .
+If the Supreme Court agrees to short-circuit the process , there will still have to be lengthy briefs filed , and the court may need to wait several days before finding time for yet another momentous hearing in its schedule .
+NYT-11-29-00 2052EST
